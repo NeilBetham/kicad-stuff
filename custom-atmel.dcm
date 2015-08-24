@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT32UC3B1512
+D TQFP48, 512K Flash, 96K RAM, 60MHz
+K Atmel 32bit Microcontroller 60MHz
+F http://www.atmel.com/Images/doc32059.pdf
+$ENDCMP
+#
+$CMP SAMD20G18A-A
+D TQFP48, 256K Flash, 32K RAM, 48MHz, CortexM0+
+K ARM 32bit Microcontroller 48MHz CortexM0+
+F http://www.atmel.com/Images/Atmel-42129-SAM-D20_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
