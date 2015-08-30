@@ -53,8 +53,8 @@ F 0 "SW-ESC1" H 1000 1000 60  0000 C CNN
 F 1 "MX" H 1000 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1000 950 60  0000 C CNN
 F 3 "" H 1000 950 60  0000 C CNN
-	1    1000 950
-	1    0    0    -1
+	1    1000 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F1
@@ -64,8 +64,8 @@ F 0 "SW-F1" H 1800 1000 60  0000 C CNN
 F 1 "MX" H 1800 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1800 950 60  0000 C CNN
 F 3 "" H 1800 950 60  0000 C CNN
-	1    1800 950
-	1    0    0    -1
+	1    1800 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F2
@@ -75,8 +75,8 @@ F 0 "SW-F2" H 2200 1000 60  0000 C CNN
 F 1 "MX" H 2200 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2200 950 60  0000 C CNN
 F 3 "" H 2200 950 60  0000 C CNN
-	1    2200 950
-	1    0    0    -1
+	1    2200 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F3
@@ -86,8 +86,8 @@ F 0 "SW-F3" H 2600 1000 60  0000 C CNN
 F 1 "MX" H 2600 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2600 950 60  0000 C CNN
 F 3 "" H 2600 950 60  0000 C CNN
-	1    2600 950
-	1    0    0    -1
+	1    2600 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F4
@@ -97,8 +97,8 @@ F 0 "SW-F4" H 3000 1000 60  0000 C CNN
 F 1 "MX" H 3000 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3000 950 60  0000 C CNN
 F 3 "" H 3000 950 60  0000 C CNN
-	1    3000 950
-	1    0    0    -1
+	1    3000 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F5
@@ -108,8 +108,8 @@ F 0 "SW-F5" H 3500 1000 60  0000 C CNN
 F 1 "MX" H 3500 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3500 950 60  0000 C CNN
 F 3 "" H 3500 950 60  0000 C CNN
-	1    3500 950
-	1    0    0    -1
+	1    3500 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F6
@@ -119,8 +119,8 @@ F 0 "SW-F6" H 3900 1000 60  0000 C CNN
 F 1 "MX" H 3900 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3900 950 60  0000 C CNN
 F 3 "" H 3900 950 60  0000 C CNN
-	1    3900 950
-	1    0    0    -1
+	1    3900 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F7
@@ -130,8 +130,8 @@ F 0 "SW-F7" H 4300 1000 60  0000 C CNN
 F 1 "MX" H 4300 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4300 950 60  0000 C CNN
 F 3 "" H 4300 950 60  0000 C CNN
-	1    4300 950
-	1    0    0    -1
+	1    4300 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F8
@@ -141,8 +141,8 @@ F 0 "SW-F8" H 4700 1000 60  0000 C CNN
 F 1 "MX" H 4700 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4700 950 60  0000 C CNN
 F 3 "" H 4700 950 60  0000 C CNN
-	1    4700 950
-	1    0    0    -1
+	1    4700 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F9
@@ -152,8 +152,8 @@ F 0 "SW-F9" H 5200 1000 60  0000 C CNN
 F 1 "MX" H 5200 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5200 950 60  0000 C CNN
 F 3 "" H 5200 950 60  0000 C CNN
-	1    5200 950
-	1    0    0    -1
+	1    5200 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F10
@@ -163,8 +163,8 @@ F 0 "SW-F10" H 5600 1000 60  0000 C CNN
 F 1 "MX" H 5600 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5600 950 60  0000 C CNN
 F 3 "" H 5600 950 60  0000 C CNN
-	1    5600 950
-	1    0    0    -1
+	1    5600 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F11
@@ -174,8 +174,8 @@ F 0 "SW-F11" H 6000 1000 60  0000 C CNN
 F 1 "MX" H 6000 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6000 950 60  0000 C CNN
 F 3 "" H 6000 950 60  0000 C CNN
-	1    6000 950
-	1    0    0    -1
+	1    6000 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F12
@@ -185,8 +185,8 @@ F 0 "SW-F12" H 6400 1000 60  0000 C CNN
 F 1 "MX" H 6400 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6400 950 60  0000 C CNN
 F 3 "" H 6400 950 60  0000 C CNN
-	1    6400 950
-	1    0    0    -1
+	1    6400 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-PRINT1
@@ -196,8 +196,8 @@ F 0 "SW-PRINT1" H 6950 1000 60  0000 C CNN
 F 1 "MX" H 6950 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6950 950 60  0000 C CNN
 F 3 "" H 6950 950 60  0000 C CNN
-	1    6950 950
-	1    0    0    -1
+	1    6950 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-SCL-LOCK1
@@ -207,8 +207,8 @@ F 0 "SW-SCL-LOCK1" H 7350 1000 60  0000 C CNN
 F 1 "MX" H 7350 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7350 950 60  0000 C CNN
 F 3 "" H 7350 950 60  0000 C CNN
-	1    7350 950
-	1    0    0    -1
+	1    7350 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-PAUSE1
@@ -218,8 +218,8 @@ F 0 "SW-PAUSE1" H 7750 1000 60  0000 C CNN
 F 1 "MX" H 7750 900 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7750 950 60  0000 C CNN
 F 3 "" H 7750 950 60  0000 C CNN
-	1    7750 950
-	1    0    0    -1
+	1    7750 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-`1
@@ -230,7 +230,7 @@ F 1 "MX" H 1000 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1000 1300 60  0000 C CNN
 F 3 "" H 1000 1300 60  0000 C CNN
 	1    1000 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-2
@@ -241,7 +241,7 @@ F 1 "MX" H 1800 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1800 1300 60  0000 C CNN
 F 3 "" H 1800 1300 60  0000 C CNN
 	1    1800 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-3
@@ -252,7 +252,7 @@ F 1 "MX" H 2200 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2200 1300 60  0000 C CNN
 F 3 "" H 2200 1300 60  0000 C CNN
 	1    2200 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-4
@@ -263,7 +263,7 @@ F 1 "MX" H 2600 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2600 1300 60  0000 C CNN
 F 3 "" H 2600 1300 60  0000 C CNN
 	1    2600 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-5
@@ -274,7 +274,7 @@ F 1 "MX" H 3000 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3000 1300 60  0000 C CNN
 F 3 "" H 3000 1300 60  0000 C CNN
 	1    3000 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-7
@@ -285,7 +285,7 @@ F 1 "MX" H 3800 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3800 1300 60  0000 C CNN
 F 3 "" H 3800 1300 60  0000 C CNN
 	1    3800 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-8
@@ -296,7 +296,7 @@ F 1 "MX" H 4200 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4200 1300 60  0000 C CNN
 F 3 "" H 4200 1300 60  0000 C CNN
 	1    4200 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-9
@@ -307,7 +307,7 @@ F 1 "MX" H 4600 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4600 1300 60  0000 C CNN
 F 3 "" H 4600 1300 60  0000 C CNN
 	1    4600 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-0
@@ -318,7 +318,7 @@ F 1 "MX" H 5000 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5000 1300 60  0000 C CNN
 F 3 "" H 5000 1300 60  0000 C CNN
 	1    5000 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-=1
@@ -329,7 +329,7 @@ F 1 "MX" H 5800 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5800 1300 60  0000 C CNN
 F 3 "" H 5800 1300 60  0000 C CNN
 	1    5800 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-BK-SPC1
@@ -340,7 +340,7 @@ F 1 "MX" H 6300 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6300 1300 60  0000 C CNN
 F 3 "" H 6300 1300 60  0000 C CNN
 	1    6300 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-INS1
@@ -351,7 +351,7 @@ F 1 "MX" H 6950 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6950 1300 60  0000 C CNN
 F 3 "" H 6950 1300 60  0000 C CNN
 	1    6950 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-HOME1
@@ -362,7 +362,7 @@ F 1 "MX" H 7350 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7350 1300 60  0000 C CNN
 F 3 "" H 7350 1300 60  0000 C CNN
 	1    7350 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-PGUP1
@@ -373,7 +373,7 @@ F 1 "MX" H 7750 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7750 1300 60  0000 C CNN
 F 3 "" H 7750 1300 60  0000 C CNN
 	1    7750 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-1
@@ -384,7 +384,7 @@ F 1 "MX" H 1400 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1400 1300 60  0000 C CNN
 F 3 "" H 1400 1300 60  0000 C CNN
 	1    1400 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-6
@@ -395,7 +395,7 @@ F 1 "MX" H 3400 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3400 1300 60  0000 C CNN
 F 3 "" H 3400 1300 60  0000 C CNN
 	1    3400 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW--1
@@ -406,7 +406,7 @@ F 1 "MX" H 5400 1250 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5400 1300 60  0000 C CNN
 F 3 "" H 5400 1300 60  0000 C CNN
 	1    5400 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-DEL1
@@ -417,7 +417,7 @@ F 1 "MX" H 6950 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6950 1700 60  0000 C CNN
 F 3 "" H 6950 1700 60  0000 C CNN
 	1    6950 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-END1
@@ -428,7 +428,7 @@ F 1 "MX" H 7350 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7350 1700 60  0000 C CNN
 F 3 "" H 7350 1700 60  0000 C CNN
 	1    7350 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-PG-DWN1
@@ -439,7 +439,7 @@ F 1 "MX" H 7750 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7750 1700 60  0000 C CNN
 F 3 "" H 7750 1700 60  0000 C CNN
 	1    7750 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-TAB1
@@ -450,7 +450,7 @@ F 1 "MX" H 1100 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1100 1700 60  0000 C CNN
 F 3 "" H 1100 1700 60  0000 C CNN
 	1    1100 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-W1
@@ -461,7 +461,7 @@ F 1 "MX" H 1900 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1900 1700 60  0000 C CNN
 F 3 "" H 1900 1700 60  0000 C CNN
 	1    1900 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-E1
@@ -472,7 +472,7 @@ F 1 "MX" H 2300 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2300 1700 60  0000 C CNN
 F 3 "" H 2300 1700 60  0000 C CNN
 	1    2300 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-R1
@@ -483,7 +483,7 @@ F 1 "MX" H 2700 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2700 1700 60  0000 C CNN
 F 3 "" H 2700 1700 60  0000 C CNN
 	1    2700 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-T1
@@ -494,7 +494,7 @@ F 1 "MX" H 3100 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3100 1700 60  0000 C CNN
 F 3 "" H 3100 1700 60  0000 C CNN
 	1    3100 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-U1
@@ -505,7 +505,7 @@ F 1 "MX" H 3900 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3900 1700 60  0000 C CNN
 F 3 "" H 3900 1700 60  0000 C CNN
 	1    3900 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-I1
@@ -516,7 +516,7 @@ F 1 "MX" H 4300 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4300 1700 60  0000 C CNN
 F 3 "" H 4300 1700 60  0000 C CNN
 	1    4300 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-O1
@@ -527,7 +527,7 @@ F 1 "MX" H 4700 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4700 1700 60  0000 C CNN
 F 3 "" H 4700 1700 60  0000 C CNN
 	1    4700 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-P1
@@ -538,7 +538,7 @@ F 1 "MX" H 5100 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5100 1700 60  0000 C CNN
 F 3 "" H 5100 1700 60  0000 C CNN
 	1    5100 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-]1
@@ -549,7 +549,7 @@ F 1 "MX" H 5900 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5900 1700 60  0000 C CNN
 F 3 "" H 5900 1700 60  0000 C CNN
 	1    5900 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-\1
@@ -560,7 +560,7 @@ F 1 "MX" H 6300 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6300 1700 60  0000 C CNN
 F 3 "" H 6300 1700 60  0000 C CNN
 	1    6300 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-Q1
@@ -571,7 +571,7 @@ F 1 "MX" H 1500 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1500 1700 60  0000 C CNN
 F 3 "" H 1500 1700 60  0000 C CNN
 	1    1500 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-Y1
@@ -582,7 +582,7 @@ F 1 "MX" H 3500 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3500 1700 60  0000 C CNN
 F 3 "" H 3500 1700 60  0000 C CNN
 	1    3500 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-[1
@@ -593,7 +593,7 @@ F 1 "MX" H 5500 1650 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5500 1700 60  0000 C CNN
 F 3 "" H 5500 1700 60  0000 C CNN
 	1    5500 1700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-CAPS1
@@ -604,7 +604,7 @@ F 1 "MX" H 1150 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1150 2100 60  0000 C CNN
 F 3 "" H 1150 2100 60  0000 C CNN
 	1    1150 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-A1
@@ -615,7 +615,7 @@ F 1 "MX" H 1550 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1550 2100 60  0000 C CNN
 F 3 "" H 1550 2100 60  0000 C CNN
 	1    1550 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-S1
@@ -626,7 +626,7 @@ F 1 "MX" H 1950 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1950 2100 60  0000 C CNN
 F 3 "" H 1950 2100 60  0000 C CNN
 	1    1950 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-D1
@@ -637,7 +637,7 @@ F 1 "MX" H 2350 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2350 2100 60  0000 C CNN
 F 3 "" H 2350 2100 60  0000 C CNN
 	1    2350 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-F13
@@ -648,7 +648,7 @@ F 1 "MX" H 2750 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2750 2100 60  0000 C CNN
 F 3 "" H 2750 2100 60  0000 C CNN
 	1    2750 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-H1
@@ -659,7 +659,7 @@ F 1 "MX" H 3550 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3550 2100 60  0000 C CNN
 F 3 "" H 3550 2100 60  0000 C CNN
 	1    3550 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-J1
@@ -670,7 +670,7 @@ F 1 "MX" H 3950 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3950 2100 60  0000 C CNN
 F 3 "" H 3950 2100 60  0000 C CNN
 	1    3950 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-K1
@@ -681,7 +681,7 @@ F 1 "MX" H 4350 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4350 2100 60  0000 C CNN
 F 3 "" H 4350 2100 60  0000 C CNN
 	1    4350 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-L1
@@ -692,7 +692,7 @@ F 1 "MX" H 4750 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4750 2100 60  0000 C CNN
 F 3 "" H 4750 2100 60  0000 C CNN
 	1    4750 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-'1
@@ -703,7 +703,7 @@ F 1 "MX" H 5550 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5550 2100 60  0000 C CNN
 F 3 "" H 5550 2100 60  0000 C CNN
 	1    5550 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-RET1
@@ -714,7 +714,7 @@ F 1 "MX" H 6100 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6100 2100 60  0000 C CNN
 F 3 "" H 6100 2100 60  0000 C CNN
 	1    6100 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-G1
@@ -725,7 +725,7 @@ F 1 "MX" H 3150 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3150 2100 60  0000 C CNN
 F 3 "" H 3150 2100 60  0000 C CNN
 	1    3150 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-;1
@@ -736,7 +736,7 @@ F 1 "MX" H 5150 2050 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5150 2100 60  0000 C CNN
 F 3 "" H 5150 2100 60  0000 C CNN
 	1    5150 2100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-SHIFT1
@@ -747,7 +747,7 @@ F 1 "MX" H 1200 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1200 2500 60  0000 C CNN
 F 3 "" H 1200 2500 60  0000 C CNN
 	1    1200 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-Z1
@@ -758,7 +758,7 @@ F 1 "MX" H 1650 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1650 2500 60  0000 C CNN
 F 3 "" H 1650 2500 60  0000 C CNN
 	1    1650 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-X1
@@ -769,7 +769,7 @@ F 1 "MX" H 2050 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2050 2500 60  0000 C CNN
 F 3 "" H 2050 2500 60  0000 C CNN
 	1    2050 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-C1
@@ -780,7 +780,7 @@ F 1 "MX" H 2450 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2450 2500 60  0000 C CNN
 F 3 "" H 2450 2500 60  0000 C CNN
 	1    2450 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-B1
@@ -791,7 +791,7 @@ F 1 "MX" H 3250 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3250 2500 60  0000 C CNN
 F 3 "" H 3250 2500 60  0000 C CNN
 	1    3250 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-N1
@@ -802,7 +802,7 @@ F 1 "MX" H 3650 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3650 2500 60  0000 C CNN
 F 3 "" H 3650 2500 60  0000 C CNN
 	1    3650 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-M1
@@ -813,7 +813,7 @@ F 1 "MX" H 4050 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4050 2500 60  0000 C CNN
 F 3 "" H 4050 2500 60  0000 C CNN
 	1    4050 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-,1
@@ -824,7 +824,7 @@ F 1 "MX" H 4450 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4450 2500 60  0000 C CNN
 F 3 "" H 4450 2500 60  0000 C CNN
 	1    4450 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-/1
@@ -835,7 +835,7 @@ F 1 "MX" H 5250 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5250 2500 60  0000 C CNN
 F 3 "" H 5250 2500 60  0000 C CNN
 	1    5250 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-SHIFT2
@@ -846,7 +846,7 @@ F 1 "MX" H 5950 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5950 2500 60  0000 C CNN
 F 3 "" H 5950 2500 60  0000 C CNN
 	1    5950 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-V1
@@ -857,7 +857,7 @@ F 1 "MX" H 2850 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 2850 2500 60  0000 C CNN
 F 3 "" H 2850 2500 60  0000 C CNN
 	1    2850 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-.1
@@ -868,7 +868,7 @@ F 1 "MX" H 4850 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 4850 2500 60  0000 C CNN
 F 3 "" H 4850 2500 60  0000 C CNN
 	1    4850 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-CTRL1
@@ -879,7 +879,7 @@ F 1 "MX" H 1050 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1050 2900 60  0000 C CNN
 F 3 "" H 1050 2900 60  0000 C CNN
 	1    1050 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-ALT1
@@ -890,7 +890,7 @@ F 1 "MX" H 1500 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1500 2900 60  0000 C CNN
 F 3 "" H 1500 2900 60  0000 C CNN
 	1    1500 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-OS1
@@ -901,7 +901,7 @@ F 1 "MX" H 1950 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 1950 2900 60  0000 C CNN
 F 3 "" H 1950 2900 60  0000 C CNN
 	1    1950 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-SPACE1
@@ -912,7 +912,7 @@ F 1 "MX" H 3500 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 3500 2900 60  0000 C CNN
 F 3 "" H 3500 2900 60  0000 C CNN
 	1    3500 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-OS2
@@ -923,7 +923,7 @@ F 1 "MX" H 5000 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5000 2900 60  0000 C CNN
 F 3 "" H 5000 2900 60  0000 C CNN
 	1    5000 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-FN1
@@ -934,7 +934,7 @@ F 1 "MX" H 5450 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5450 2900 60  0000 C CNN
 F 3 "" H 5450 2900 60  0000 C CNN
 	1    5450 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-MENU1
@@ -945,7 +945,7 @@ F 1 "MX" H 5900 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 5900 2900 60  0000 C CNN
 F 3 "" H 5900 2900 60  0000 C CNN
 	1    5900 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-CTRL2
@@ -956,7 +956,7 @@ F 1 "MX" H 6350 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6350 2900 60  0000 C CNN
 F 3 "" H 6350 2900 60  0000 C CNN
 	1    6350 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-UP1
@@ -967,7 +967,7 @@ F 1 "MX" H 7350 2450 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7350 2500 60  0000 C CNN
 F 3 "" H 7350 2500 60  0000 C CNN
 	1    7350 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-LEFT1
@@ -978,7 +978,7 @@ F 1 "MX" H 6950 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 6950 2900 60  0000 C CNN
 F 3 "" H 6950 2900 60  0000 C CNN
 	1    6950 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-DOWN1
@@ -989,7 +989,7 @@ F 1 "MX" H 7350 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7350 2900 60  0000 C CNN
 F 3 "" H 7350 2900 60  0000 C CNN
 	1    7350 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L MX SW-RIGHT1
@@ -1000,7 +1000,7 @@ F 1 "MX" H 7750 2850 60  0000 C CNN
 F 2 "mx1a:MX1A" H 7750 2900 60  0000 C CNN
 F 3 "" H 7750 2900 60  0000 C CNN
 	1    7750 2900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L AT32UC3B1512 U1
@@ -1008,10 +1008,10 @@ U 1 1 55DAF9F2
 P 3150 6350
 F 0 "U1" H 1500 8000 40  0000 C CNN
 F 1 "AT32UC3B1512" H 4600 4700 40  0000 C CNN
-F 2 "TQFP48" H 1600 7900 32  0000 C CIN
+F 2 "custom-footprints:QFN48+1" H 1600 7900 32  0000 C CIN
 F 3 "" H 3150 6600 60  0000 C CNN
 	1    3150 6350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L USB_OTG P1
@@ -1022,7 +1022,7 @@ F 1 "USB_OTG" H 12050 1300 50  0000 C CNN
 F 2 "Connect:USB_Mini-B" V 12000 1000 60  0000 C CNN
 F 3 "" V 12000 1000 60  0000 C CNN
 	1    12050 1100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR01
@@ -1033,7 +1033,7 @@ F 1 "+3.3V" H 2000 4290 50  0000 C CNN
 F 2 "" H 2000 4150 60  0000 C CNN
 F 3 "" H 2000 4150 60  0000 C CNN
 	1    2000 4150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C Cout1
@@ -1044,7 +1044,7 @@ F 1 "470pF" H 10625 5950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 10638 5900 30  0000 C CNN
 F 3 "" H 10600 6050 60  0000 C CNN
 	1    10600 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C Cout2
@@ -1055,7 +1055,7 @@ F 1 "2.2uF" H 10925 5950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 10938 5900 30  0000 C CNN
 F 3 "" H 10900 6050 60  0000 C CNN
 	1    10900 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
@@ -1066,7 +1066,7 @@ F 1 "GND" H 10800 6150 50  0000 C CNN
 F 2 "" H 10800 6300 60  0000 C CNN
 F 3 "" H 10800 6300 60  0000 C CNN
 	1    10800 6300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 3200 4450 0    60   ~ 0
 VDDOUT
@@ -1081,7 +1081,7 @@ F 1 "GND" H 12250 1300 50  0000 C CNN
 F 2 "" H 12250 1450 60  0000 C CNN
 F 3 "" H 12250 1450 60  0000 C CNN
 	1    12250 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR04
@@ -1092,7 +1092,7 @@ F 1 "+5V" H 11550 1540 50  0000 C CNN
 F 2 "" H 11550 1400 60  0000 C CNN
 F 3 "" H 11550 1400 60  0000 C CNN
 	1    11550 1400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 11950 1950 0    60   ~ 0
 USB_DP
@@ -1109,7 +1109,7 @@ F 1 "GND" H 2200 8100 50  0000 C CNN
 F 2 "" H 2200 8250 60  0000 C CNN
 F 3 "" H 2200 8250 60  0000 C CNN
 	1    2200 8250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 5250 6850 0    60   ~ 0
 XIN
@@ -1124,7 +1124,7 @@ F 1 "12MHz" H 9350 5900 50  0000 C CNN
 F 2 "Crystals_Oscillators_SMD:crystal_FA238-TSX3225" H 9350 6050 60  0000 C CNN
 F 3 "" H 9350 6050 60  0000 C CNN
 	1    9350 6050
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L C Cx1
@@ -1135,7 +1135,7 @@ F 1 "22pF" H 9725 5800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9738 5750 30  0000 C CNN
 F 3 "" H 9700 5900 60  0000 C CNN
 	1    9700 5900
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L C Cx2
@@ -1146,7 +1146,7 @@ F 1 "22pF" H 9725 6100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9738 6050 30  0000 C CNN
 F 3 "" H 9700 6200 60  0000 C CNN
 	1    9700 6200
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR06
@@ -1157,7 +1157,7 @@ F 1 "GND" H 10050 6100 50  0000 C CNN
 F 2 "" H 10050 6250 60  0000 C CNN
 F 3 "" H 10050 6250 60  0000 C CNN
 	1    10050 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9000 5900 0    60   ~ 0
 XIN
@@ -1172,7 +1172,7 @@ F 1 "+5V" H 700 5390 50  0000 C CNN
 F 2 "" H 700 5250 60  0000 C CNN
 F 3 "" H 700 5250 60  0000 C CNN
 	1    700  5250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
@@ -1183,7 +1183,7 @@ F 1 "39" V 850 4650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 780 4650 30  0000 C CNN
 F 3 "" H 850 4650 30  0000 C CNN
 	1    850  4650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
@@ -1194,7 +1194,7 @@ F 1 "39" V 1000 4650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 930 4650 30  0000 C CNN
 F 3 "" H 1000 4650 30  0000 C CNN
 	1    1000 4650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 850  4350 1    60   ~ 0
 USB_DM
@@ -1209,7 +1209,7 @@ F 1 "LD1117S33CTR" H 9900 1250 40  0000 C CNN
 F 2 "SOT-223" H 9900 1150 40  0000 C CNN
 F 3 "" H 9900 1050 60  0000 C CNN
 	1    9900 1050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR08
@@ -1220,7 +1220,7 @@ F 1 "GND" H 9900 1200 50  0000 C CNN
 F 2 "" H 9900 1350 60  0000 C CNN
 F 3 "" H 9900 1350 60  0000 C CNN
 	1    9900 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR09
@@ -1230,8 +1230,8 @@ F 0 "#PWR09" H 10350 800 50  0001 C CNN
 F 1 "+3.3V" H 10350 1090 50  0000 C CNN
 F 2 "" H 10350 950 60  0000 C CNN
 F 3 "" H 10350 950 60  0000 C CNN
-	1    10350 950
-	1    0    0    -1
+	1    10350 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR010
@@ -1241,8 +1241,8 @@ F 0 "#PWR010" H 9450 800 50  0001 C CNN
 F 1 "+5V" H 9450 1090 50  0000 C CNN
 F 2 "" H 9450 950 60  0000 C CNN
 F 3 "" H 9450 950 60  0000 C CNN
-	1    9450 950
-	1    0    0    -1
+	1    9450 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_02X05 P2
@@ -1253,7 +1253,7 @@ F 1 "JTAG" H 9950 1950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 9950 1050 60  0000 C CNN
 F 3 "" H 9950 1050 60  0000 C CNN
 	1    9950 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9450 2050 0    60   ~ 0
 TCK
@@ -1270,7 +1270,7 @@ F 1 "GND" H 10450 2600 50  0000 C CNN
 F 2 "" H 10450 2750 60  0000 C CNN
 F 3 "" H 10450 2750 60  0000 C CNN
 	1    10450 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR012
@@ -1281,7 +1281,7 @@ F 1 "+3.3V" H 10350 2090 50  0000 C CNN
 F 2 "" H 10350 1950 60  0000 C CNN
 F 3 "" H 10350 1950 60  0000 C CNN
 	1    10350 1950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C Cjtag1
@@ -1292,7 +1292,7 @@ F 1 "100nF" H 10725 2050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 10738 2000 30  0000 C CNN
 F 3 "" H 10700 2150 60  0000 C CNN
 	1    10700 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR013
@@ -1303,7 +1303,7 @@ F 1 "GND" H 10950 2100 50  0000 C CNN
 F 2 "" H 10950 2250 60  0000 C CNN
 F 3 "" H 10950 2250 60  0000 C CNN
 	1    10950 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 5250 4950 0    60   ~ 0
 TCK
@@ -1528,7 +1528,7 @@ F 1 "74HC595" H 7350 4000 70  0000 C CNN
 F 2 "SMD_Packages:SO-16-N" H 7350 4600 60  0000 C CNN
 F 3 "" H 7350 4600 60  0000 C CNN
 	1    7350 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC595 U3
@@ -1539,7 +1539,7 @@ F 1 "74HC595" H 7350 5400 70  0000 C CNN
 F 2 "SMD_Packages:SO-16-N" H 7350 6000 60  0000 C CNN
 F 3 "" H 7350 6000 60  0000 C CNN
 	1    7350 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC595 U4
@@ -1550,7 +1550,7 @@ F 1 "74HC595" H 7350 6800 70  0000 C CNN
 F 2 "SMD_Packages:SO-16-N" H 7350 7400 60  0000 C CNN
 F 3 "" H 7350 7400 60  0000 C CNN
 	1    7350 7400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 8300 4150 0    39   ~ 0
 COL1
@@ -1595,7 +1595,7 @@ F 1 "GND" H 6150 4650 50  0000 C CNN
 F 2 "" H 6150 4800 60  0000 C CNN
 F 3 "" H 6150 4800 60  0000 C CNN
 	1    6150 4800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR015
@@ -1606,7 +1606,7 @@ F 1 "GND" H 8350 3350 50  0000 C CNN
 F 2 "" H 8350 3500 60  0000 C CNN
 F 3 "" H 8350 3500 60  0000 C CNN
 	1    8350 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R5
@@ -1617,7 +1617,7 @@ F 1 "10k" H 8180 2010 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 8150 2050 60  0000 C CNN
 F 3 "" H 8150 2050 60  0000 C CNN
 	1    8150 2050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R4
@@ -1628,7 +1628,7 @@ F 1 "10k" H 8180 1610 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 8150 1650 60  0000 C CNN
 F 3 "" H 8150 1650 60  0000 C CNN
 	1    8150 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R3
@@ -1639,7 +1639,7 @@ F 1 "10k" H 8180 1210 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 8150 1250 60  0000 C CNN
 F 3 "" H 8150 1250 60  0000 C CNN
 	1    8150 1250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R6
@@ -1650,7 +1650,7 @@ F 1 "10k" H 8180 2410 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 8150 2450 60  0000 C CNN
 F 3 "" H 8150 2450 60  0000 C CNN
 	1    8150 2450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R7
@@ -1661,7 +1661,7 @@ F 1 "10k" H 8180 2810 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 8150 2850 60  0000 C CNN
 F 3 "" H 8150 2850 60  0000 C CNN
 	1    8150 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R8
@@ -1672,7 +1672,7 @@ F 1 "10k" H 8180 3160 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" H 8150 3200 60  0000 C CNN
 F 3 "" H 8150 3200 60  0000 C CNN
 	1    8150 3200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2300 4550 2300 4450
@@ -1795,7 +1795,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 1000 10350 1000
 Wire Wire Line
-	10350 1000 10350 950
+	10350 1000 10350 950 
 Wire Wire Line
 	9900 1300 9900 1350
 Wire Wire Line
@@ -2270,11 +2270,77 @@ F 0 "#PWR016" H 10750 800 50  0001 C CNN
 F 1 "+3.3V" H 10750 1090 50  0000 C CNN
 F 2 "" H 10750 950 60  0000 C CNN
 F 3 "" H 10750 950 60  0000 C CNN
-	1    10750 950
-	1    0    0    -1
+	1    10750 950 
+	1    0    0    -1  
 $EndComp
 Text Label 10750 1150 3    60   ~ 0
 VCC
 Wire Wire Line
 	10750 950  10750 1150
+$Comp
+L MX SW?
+U 1 1 55E28F84
+P 2450 2900
+F 0 "SW?" H 2450 2950 60  0000 C CNN
+F 1 "MX" H 2450 2850 60  0000 C CNN
+F 2 "mx1a:MXST" H 2450 2900 60  0000 C CNN
+F 3 "" H 2450 2900 60  0000 C CNN
+	1    2450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX SW?
+U 1 1 55E296F8
+P 4550 2900
+F 0 "SW?" H 4550 2950 60  0000 C CNN
+F 1 "MX" H 4550 2850 60  0000 C CNN
+F 2 "mx1a:MXST" H 4550 2900 60  0000 C CNN
+F 3 "" H 4550 2900 60  0000 C CNN
+	1    4550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX SW?
+U 1 1 55E29E84
+P 6150 2500
+F 0 "SW?" H 6150 2550 60  0000 C CNN
+F 1 "MX" H 6150 2450 60  0000 C CNN
+F 2 "mx1a:MXST" H 6150 2500 60  0000 C CNN
+F 3 "" H 6150 2500 60  0000 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX SW?
+U 1 1 55E2A005
+P 5750 2500
+F 0 "SW?" H 5750 2550 60  0000 C CNN
+F 1 "MX" H 5750 2450 60  0000 C CNN
+F 2 "mx1a:MXST" H 5750 2500 60  0000 C CNN
+F 3 "" H 5750 2500 60  0000 C CNN
+	1    5750 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX SW?
+U 1 1 55E2A3B8
+P 1150 2500
+F 0 "SW?" H 1150 2550 60  0000 C CNN
+F 1 "MX" H 1150 2450 60  0000 C CNN
+F 2 "mx1a:MXST" H 1150 2500 60  0000 C CNN
+F 3 "" H 1150 2500 60  0000 C CNN
+	1    1150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX SW?
+U 1 1 55E2A529
+P 1300 2500
+F 0 "SW?" H 1300 2550 60  0000 C CNN
+F 1 "MX" H 1300 2450 60  0000 C CNN
+F 2 "mx1a:MXST" H 1300 2500 60  0000 C CNN
+F 3 "" H 1300 2500 60  0000 C CNN
+	1    1300 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
