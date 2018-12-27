@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +170V
+D Power flag, +170V
+K power-flag
+$ENDCMP
+#
+$CMP HV5522
+D 32 Channel High Voltage Shift Register
+$ENDCMP
+#
+$CMP HV5523
+D High Voltage Shift Register
+K HV5523, High, Voltage
+$ENDCMP
+#
+$CMP LDL1117
+D High PSRR LDO Linear Voltage Regulator
+K ldo,voltage,regulator
+$ENDCMP
+#
+#End Doc Library
