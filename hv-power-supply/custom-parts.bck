@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +170V
+D Power flag, +170V
+K power-flag
+$ENDCMP
+#
+$CMP HV5522
+D 32 Channel High Voltage Shift Register
+$ENDCMP
+#
+$CMP HV5523
+D High Voltage Shift Register
+K HV5523, High, Voltage
+$ENDCMP
+#
+$CMP HV_GND
+D Power flag, +170V
+K power-flag
+$ENDCMP
+#
+$CMP LDL1117
+D High PSRR LDO Linear Voltage Regulator
+K ldo,voltage,regulator
+$ENDCMP
+#
+$CMP PSMN014-80YL
+D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
+K N-Channel MOSFET
+F https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf
+$ENDCMP
+#
+$CMP RFN2LAM6STFTR
+D Diode symbol for simulation only. Pin order incompatible with official kicad footprints
+K simulation
+F ~
+$ENDCMP
+#
+$CMP TPS40210
+D TI Boost Controller
+K boost,switchmode,controller
+$ENDCMP
+#
+#End Doc Library
