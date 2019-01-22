@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L RF_Module:ESP32-WROOM-32D U1
+L custom-parts:ESP32-WROOM-32D U1
 U 1 1 5C1B096D
 P 1750 2500
 F 0 "U1" H 1300 3850 50  0000 C CNN
@@ -469,15 +469,9 @@ Wire Wire Line
 	4700 1750 4700 3400
 Wire Wire Line
 	4700 3400 7850 3400
-Wire Wire Line
-	7850 3400 7850 1550
-Wire Wire Line
-	7850 1550 8850 1550
 Connection ~ 4300 1750
 Wire Wire Line
 	4300 1750 4300 1800
-Wire Wire Line
-	7750 1450 7750 3300
 Wire Wire Line
 	7750 3300 3950 3300
 Wire Wire Line
@@ -485,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1750 3500 1750
 Wire Wire Line
-	7750 1450 8700 1450
+	7850 1450 8700 1450
 Connection ~ 3500 1750
 Wire Wire Line
 	3500 1750 3500 1800
@@ -1177,12 +1171,12 @@ F 3 "" H 5300 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer_RTC:DS3231M U6
+L Timer_RTC:DS3231MZ U6
 U 1 1 5C31CD5B
 P 2500 8100
 F 0 "U6" H 2500 7614 50  0000 C CNN
 F 1 "DS3231M" H 2500 7523 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 2500 7500 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2500 7500 50  0001 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 2770 8150 50  0001 C CNN
 	1    2500 8100
 	1    0    0    -1  
@@ -1768,9 +1762,9 @@ Wire Wire Line
 Text Label 1200 7900 0    50   ~ 0
 RTC_SCL
 Text Label 1200 8000 0    50   ~ 0
-RTL_SDA
+RTC_SDA
 Text Label 1200 8300 0    50   ~ 0
-RTL_RST
+RTC_RST
 Wire Wire Line
 	2850 5850 3100 5850
 Connection ~ 3100 5850
@@ -1794,8 +1788,8 @@ Wire Wire Line
 Wire Wire Line
 	2350 3000 2450 3000
 Wire Wire Line
-	2350 2900 2450 2900
-Text Label 2450 2900 0    50   ~ 0
+	2350 3400 2450 3400
+Text Label 2450 3400 0    50   ~ 0
 RTC_INT
 Text Label 2450 3000 0    50   ~ 0
 RTC_RST
@@ -2342,4 +2336,155 @@ Wire Wire Line
 Connection ~ 9450 1000
 Wire Wire Line
 	9450 1000 9450 1050
+Wire Wire Line
+	7750 3300 7750 1550
+Wire Wire Line
+	7750 1550 8850 1550
+Wire Wire Line
+	7850 3400 7850 1450
+$Comp
+L Connector_Generic_MountingPin:Conn_01x01_MountingPin J4
+U 1 1 5C4AB747
+P 11500 12650
+F 0 "J4" H 11587 12616 50  0000 L CNN
+F 1 "Conn_01x01_MountingPin" H 11587 12525 50  0000 L CNN
+F 2 "custom-parts:4MM_Mounting_Hole" H 11500 12650 50  0001 C CNN
+F 3 "~" H 11500 12650 50  0001 C CNN
+	1    11500 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x01_MountingPin J5
+U 1 1 5C4AB84B
+P 12800 12650
+F 0 "J5" H 12887 12616 50  0000 L CNN
+F 1 "Conn_01x01_MountingPin" H 12887 12525 50  0000 L CNN
+F 2 "custom-parts:4MM_Mounting_Hole" H 12800 12650 50  0001 C CNN
+F 3 "~" H 12800 12650 50  0001 C CNN
+	1    12800 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x01_MountingPin J6
+U 1 1 5C4AB90F
+P 14100 12650
+F 0 "J6" H 14187 12616 50  0000 L CNN
+F 1 "Conn_01x01_MountingPin" H 14187 12525 50  0000 L CNN
+F 2 "custom-parts:4MM_Mounting_Hole" H 14100 12650 50  0001 C CNN
+F 3 "~" H 14100 12650 50  0001 C CNN
+	1    14100 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x01_MountingPin J7
+U 1 1 5C4AB9DB
+P 15400 12650
+F 0 "J7" H 15487 12616 50  0000 L CNN
+F 1 "Conn_01x01_MountingPin" H 15487 12525 50  0000 L CNN
+F 2 "custom-parts:4MM_Mounting_Hole" H 15400 12650 50  0001 C CNN
+F 3 "~" H 15400 12650 50  0001 C CNN
+	1    15400 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 5C4AC4F4
+P 11500 12950
+F 0 "#PWR0144" H 11500 12700 50  0001 C CNN
+F 1 "GND" H 11505 12777 50  0000 C CNN
+F 2 "" H 11500 12950 50  0001 C CNN
+F 3 "" H 11500 12950 50  0001 C CNN
+	1    11500 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 5C4AC598
+P 12800 12950
+F 0 "#PWR0145" H 12800 12700 50  0001 C CNN
+F 1 "GND" H 12805 12777 50  0000 C CNN
+F 2 "" H 12800 12950 50  0001 C CNN
+F 3 "" H 12800 12950 50  0001 C CNN
+	1    12800 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 5C4AC635
+P 14100 12950
+F 0 "#PWR0146" H 14100 12700 50  0001 C CNN
+F 1 "GND" H 14105 12777 50  0000 C CNN
+F 2 "" H 14100 12950 50  0001 C CNN
+F 3 "" H 14100 12950 50  0001 C CNN
+	1    14100 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 5C4AC6D2
+P 15400 12950
+F 0 "#PWR0147" H 15400 12700 50  0001 C CNN
+F 1 "GND" H 15405 12777 50  0000 C CNN
+F 2 "" H 15400 12950 50  0001 C CNN
+F 3 "" H 15400 12950 50  0001 C CNN
+	1    15400 12950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 12650 11300 12850
+Wire Wire Line
+	11300 12850 11500 12850
+Wire Wire Line
+	11500 12950 11500 12850
+Connection ~ 11500 12850
+Wire Wire Line
+	12600 12650 12600 12850
+Wire Wire Line
+	12600 12850 12800 12850
+Wire Wire Line
+	12800 12850 12800 12950
+Connection ~ 12800 12850
+Wire Wire Line
+	13900 12650 13900 12850
+Wire Wire Line
+	13900 12850 14100 12850
+Wire Wire Line
+	14100 12950 14100 12850
+Connection ~ 14100 12850
+Wire Wire Line
+	15200 12650 15200 12850
+Wire Wire Line
+	15200 12850 15400 12850
+Wire Wire Line
+	15400 12850 15400 12950
+Connection ~ 15400 12850
+$Comp
+L Connector_Generic_MountingPin:Conn_01x01_MountingPin J8
+U 1 1 5C4B3E54
+P 16700 12650
+F 0 "J8" H 16787 12616 50  0000 L CNN
+F 1 "Conn_01x01_MountingPin" H 16787 12525 50  0000 L CNN
+F 2 "custom-parts:4MM_Mounting_Hole" H 16700 12650 50  0001 C CNN
+F 3 "~" H 16700 12650 50  0001 C CNN
+	1    16700 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 5C4B3E5A
+P 16700 12950
+F 0 "#PWR0148" H 16700 12700 50  0001 C CNN
+F 1 "GND" H 16705 12777 50  0000 C CNN
+F 2 "" H 16700 12950 50  0001 C CNN
+F 3 "" H 16700 12950 50  0001 C CNN
+	1    16700 12950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 12650 16500 12850
+Wire Wire Line
+	16500 12850 16700 12850
+Wire Wire Line
+	16700 12850 16700 12950
+Connection ~ 16700 12850
 $EndSCHEMATC
