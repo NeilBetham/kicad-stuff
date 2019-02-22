@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
@@ -785,7 +785,7 @@
     (descr "solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm")
     (tags "solder Pin_ pressfit")
     (path /5C3C5173)
-    (fp_text reference J1 (at -8 -2.1) (layer F.SilkS) hide
+    (fp_text reference J1 (at 9.14 -0.25) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x01 (at 0 -2.05) (layer F.Fab)
@@ -812,7 +812,7 @@
     (descr "solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm")
     (tags "solder Pin_ pressfit")
     (path /5C3C989E)
-    (fp_text reference J2 (at 10.5 -1.2) (layer F.SilkS) hide
+    (fp_text reference J2 (at -1.03 -2.77) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x01 (at 0 -2.05) (layer F.Fab)
@@ -839,7 +839,7 @@
     (descr "solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm")
     (tags "solder Pin_ pressfit")
     (path /5C3C52B4)
-    (fp_text reference J3 (at 6.9 -0.4) (layer F.SilkS) hide
+    (fp_text reference J3 (at -11.55 0.47) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x01 (at 0 -2.05) (layer F.Fab)
@@ -866,7 +866,7 @@
     (descr "solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm")
     (tags "solder Pin_ pressfit")
     (path /5C3EF2B4)
-    (fp_text reference J4 (at -7.9 -2.2) (layer F.SilkS) hide
+    (fp_text reference J4 (at 8.56 -0.55) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x01 (at 0 -2.05) (layer F.Fab)
