@@ -1,4 +1,4 @@
-16942656864749809
+16953764064060392
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75257,6 +75257,41 @@ varistor SIOV
 2
 2
 custom-parts
+4MM_Mounting_Hole
+
+
+0
+1
+1
+custom-parts
+54819-0589
+
+
+0
+9
+6
+custom-parts
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+custom-parts
+IN-18 Socket
+
+
+0
+14
+14
+custom-parts
+NA6252-AL
+
+
+0
+8
+8
+custom-parts
 PhoenixContact PTSA 4Pin
 
 
@@ -75271,9 +75306,23 @@ PhoenixContact_PTSA_2Pin
 2
 2
 custom-parts
+R_GMR_100
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+custom-parts
+SOD-128-2
+
+
+0
+2
+2
+custom-parts
 Wurth_74980104400
 
 
 0
-0
-0
+14
+13
