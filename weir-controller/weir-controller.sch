@@ -69,17 +69,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf" H 1900 9
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:NCP1117-12_SOT223 U4
-U 1 1 5E9CE6A1
-P 13000 2500
-F 0 "U4" H 13000 2742 50  0000 C CNN
-F 1 "TL1963A-33DCYR" H 13000 2651 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 13000 2700 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 13100 2250 50  0001 C CNN
-	1    13000 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR024
 U 1 1 5E9D3267
 P 12500 2400
@@ -364,7 +353,7 @@ U 1 1 5E9FC146
 P 12900 1500
 F 0 "J6" H 12980 1492 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 12980 1401 50  0000 L CNN
-F 2 "custom-parts:PhoenixContact_PTSA_2Pin" H 12900 1500 50  0001 C CNN
+F 2 "custom-parts:PhoenixContact_PTSA_2PIN_8A" H 12900 1500 50  0001 C CNN
 F 3 "~" H 12900 1500 50  0001 C CNN
 	1    12900 1500
 	1    0    0    -1  
@@ -421,17 +410,11 @@ F 3 "~" H 13500 2650 50  0001 C CNN
 	1    13500 2650
 	1    0    0    -1  
 $EndComp
-Connection ~ 13500 2500
-Connection ~ 12500 2500
-Wire Wire Line
-	13300 2500 13500 2500
 Wire Wire Line
 	12500 2800 13000 2800
 Connection ~ 13000 2800
 Wire Wire Line
 	13000 2800 13500 2800
-Wire Wire Line
-	12500 2500 12700 2500
 Wire Wire Line
 	10050 8150 8900 8150
 Wire Wire Line
@@ -970,22 +953,18 @@ Wire Wire Line
 	1700 3200 1700 3500
 Wire Wire Line
 	1700 3500 1550 3500
-Text Label 3400 4450 0    50   ~ 0
+Text Label 3400 2450 0    50   ~ 0
 RELAY_ON_G
 Text Label 3400 4350 0    50   ~ 0
 BLUE_G
 Text Label 3400 4250 0    50   ~ 0
 GREEN_G
-Text Label 3400 4550 0    50   ~ 0
+Text Label 3400 2650 0    50   ~ 0
 RED_G
 Wire Wire Line
 	3300 4250 3400 4250
 Wire Wire Line
 	3300 4350 3400 4350
-Wire Wire Line
-	3300 4450 3400 4450
-Wire Wire Line
-	3300 4550 3400 4550
 Text Label 5350 2050 0    50   ~ 0
 PHY_RST
 Text Label 5350 2150 0    50   ~ 0
@@ -1144,7 +1123,7 @@ U 1 1 5E9C7073
 P 6800 2750
 F 0 "U2" H 6800 1561 50  0000 C CNN
 F 1 "DP83825IRMQR" H 6800 1470 50  0000 C CNN
-F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6750 1350 50  0001 C CNN
+F 2 "custom-parts:TI_RMQ0024A" H 6750 1350 50  0001 C CNN
 F 3 "" H 6500 3050 50  0001 C CNN
 	1    6800 2750
 	1    0    0    -1  
@@ -1377,4 +1356,130 @@ Text Label 9400 8050 0    50   ~ 0
 USB_P
 Text Label 9400 8150 0    50   ~ 0
 USB_N
+$Comp
+L custom-parts:TL1963A-33DCYR U4
+U 1 1 5EBD715B
+P 13000 2550
+F 0 "U4" H 13000 2865 50  0000 C CNN
+F 1 "TL1963A-33DCYR" H 13000 2774 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 13000 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl1963a.pdf" H 13000 2550 50  0001 C CNN
+	1    13000 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 2500 12700 2500
+Connection ~ 12500 2500
+Wire Wire Line
+	13300 2500 13500 2500
+Connection ~ 13500 2500
+Wire Wire Line
+	3300 2450 3400 2450
+Wire Wire Line
+	3300 2650 3400 2650
+Wire Wire Line
+	3300 4550 3550 4550
+Wire Wire Line
+	3550 4550 3550 4950
+Wire Wire Line
+	3550 4950 3750 4950
+$Comp
+L power:GND #PWR0101
+U 1 1 5EC66C12
+P 4250 5050
+F 0 "#PWR0101" H 4250 4800 50  0001 C CNN
+F 1 "GND" H 4255 4877 50  0000 C CNN
+F 2 "" H 4250 5050 50  0001 C CNN
+F 3 "" H 4250 5050 50  0001 C CNN
+	1    4250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 5050
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EC87E21
+P 3950 4950
+F 0 "SW1" H 3950 5235 50  0000 C CNN
+F 1 "SW_Push" H 3950 5144 50  0000 C CNN
+F 2 "custom-parts:PTS636" H 3950 5150 50  0001 C CNN
+F 3 "~" H 3950 5150 50  0001 C CNN
+	1    3950 4950
+	1    0    0    -1  
+$EndComp
+Text Label 3550 4550 0    50   ~ 0
+FACTORY_RESET
+$Comp
+L custom-parts:LED_ABGR D1
+U 1 1 5ECC3E30
+P 3900 1700
+F 0 "D1" H 3900 2197 50  0000 C CNN
+F 1 "LED_ABGR" H 3900 2106 50  0000 C CNN
+F 2 "LED_SMD:LED_Cree-PLCC4_2x2mm_CW" H 3900 1700 50  0001 C CNN
+F 3 "~" H 3900 1700 50  0001 C CNN
+	1    3900 1700
+	1    0    0    -1  
+$EndComp
+Text Label 3250 1500 0    50   ~ 0
+IND_G
+Text Label 3100 1700 0    50   ~ 0
+IND_R
+Text Label 3250 1900 0    50   ~ 0
+IND_B
+$Comp
+L Device:R R13
+U 1 1 5ECCB9D4
+P 3500 1700
+F 0 "R13" V 3293 1700 50  0000 C CNN
+F 1 "80" V 3384 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 1700 50  0001 C CNN
+F 3 "~" H 3500 1700 50  0001 C CNN
+	1    3500 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 1700 3650 1700
+Wire Wire Line
+	3700 1500 3250 1500
+Wire Wire Line
+	3100 1700 3350 1700
+Wire Wire Line
+	3700 1900 3250 1900
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5ED1FFEA
+P 4250 1600
+F 0 "#PWR0102" H 4250 1450 50  0001 C CNN
+F 1 "+3.3V" H 4265 1773 50  0000 C CNN
+F 2 "" H 4250 1600 50  0001 C CNN
+F 3 "" H 4250 1600 50  0001 C CNN
+	1    4250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1600 4250 1700
+Wire Wire Line
+	4250 1700 4100 1700
+Text Label 3400 3050 0    50   ~ 0
+IND_R
+Text Label 3400 3450 0    50   ~ 0
+IND_G
+Text Label 3400 3850 0    50   ~ 0
+IND_B
+Wire Wire Line
+	3300 3850 3400 3850
+Wire Wire Line
+	3300 3450 3400 3450
+Wire Wire Line
+	3300 3050 3400 3050
+Text Label 2000 6900 0    50   ~ 0
+RED_CATHODE
+Text Label 3500 6900 0    50   ~ 0
+GREEN_CATHODE
+Text Label 5000 6900 0    50   ~ 0
+BLUE_CATHODE
+Text Label 2000 9000 0    50   ~ 0
+RELAY_NEGATIVE
 $EndSCHEMATC

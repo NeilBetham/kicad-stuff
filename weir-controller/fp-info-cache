@@ -1,4 +1,4 @@
-16953764064060392
+16964892832592553
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75257,6 +75257,13 @@ varistor SIOV
 2
 2
 custom-parts
+1_1_0_version_tag
+
+
+0
+1
+1
+custom-parts
 4MM_Mounting_Hole
 
 
@@ -75292,12 +75299,26 @@ NA6252-AL
 8
 8
 custom-parts
+PTS636
+
+
+0
+2
+2
+custom-parts
 PhoenixContact PTSA 4Pin
 
 
 0
 4
 4
+custom-parts
+PhoenixContact_PTSA_2PIN_8A
+
+
+0
+2
+2
 custom-parts
 PhoenixContact_PTSA_2Pin
 
@@ -75320,9 +75341,37 @@ SOD-128-2
 2
 2
 custom-parts
+TI_RMQ0024A
+
+
+0
+31
+25
+custom-parts
 Wurth_74980104400
 
 
 0
 14
 13
+custom-parts
+controller_text
+
+
+0
+0
+0
+custom-parts
+weir_controller_text
+
+
+0
+0
+0
+custom-parts
+weir_text
+
+
+0
+0
+0

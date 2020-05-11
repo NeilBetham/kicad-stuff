@@ -36,6 +36,18 @@ D High PSRR LDO Linear Voltage Regulator
 K ldo,voltage,regulator
 $ENDCMP
 #
+$CMP LED_ABGR
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP PSMN014-80YL
 D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
 K N-Channel MOSFET
@@ -46,6 +58,11 @@ $CMP RFN2LAM6STFTR
 D Diode symbol for simulation only. Pin order incompatible with official kicad footprints
 K simulation
 F ~
+$ENDCMP
+#
+$CMP TL1963A-33DCYR
+D 3.3V LDO Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/tl1963a.pdf
 $ENDCMP
 #
 $CMP TPS40210
