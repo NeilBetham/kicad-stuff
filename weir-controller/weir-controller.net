@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Neil Betham\\code\\kicad-stuff\\weir-controller\\weir-controller.sch")
-    (date "5/10/2020 15:48:37")
+    (date "6/11/2020 18:47:13")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value ESP32-WROOM-32U)
-      (footprint RF_Module:ESP32-WROOM-32U)
+      (footprint custom-parts:ESP32-WROOM-32U)
       (datasheet https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf)
       (libsource (lib RF_Module) (part ESP32-WROOM-32U) (description "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD"))
       (sheetpath (names /) (tstamps /))

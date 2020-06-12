@@ -19,7 +19,7 @@ U 1 1 5E93C9AD
 P 2700 3450
 F 0 "U1" H 2700 5031 50  0000 C CNN
 F 1 "ESP32-WROOM-32U" H 2700 4940 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32U" H 2700 1950 50  0001 C CNN
+F 2 "custom-parts:ESP32-WROOM-32U" H 2700 1950 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 2400 3500 50  0001 C CNN
 	1    2700 3450
 	1    0    0    -1  
@@ -967,8 +967,6 @@ Wire Wire Line
 	3300 4350 3400 4350
 Text Label 5350 2050 0    50   ~ 0
 PHY_RST
-Text Label 5350 2150 0    50   ~ 0
-PHY_INTR
 Text Label 5350 2400 0    50   ~ 0
 PHY_50MHzIn
 Text Label 5350 2550 0    50   ~ 0
@@ -989,8 +987,6 @@ Text Label 5350 3300 0    50   ~ 0
 RX_ER
 Text Label 5350 3400 0    50   ~ 0
 CRS_DV
-Wire Wire Line
-	5350 2150 5900 2150
 Wire Wire Line
 	5350 2400 5900 2400
 Wire Wire Line
@@ -1111,12 +1107,8 @@ Text Notes 8050 1600 0    50   ~ 0
 Strapping Pin - Slave Mode\nClock 50MHz from MAC
 Text Label 3400 2750 0    50   ~ 0
 PHY_RST
-Text Label 3400 2850 0    50   ~ 0
-PHY_INTR
 Wire Wire Line
 	3300 2750 3400 2750
-Wire Wire Line
-	3300 2850 3400 2850
 $Comp
 L custom-parts:DP83825IRMQR U2
 U 1 1 5E9C7073
