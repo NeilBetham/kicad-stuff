@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CC1125)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/CC1125RHBR.lib)(options "")(descr ""))
+  (lib (name TM4C)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/TM4C129ENCZADI3R.lib)(options "")(descr ""))
+)

@@ -1,0 +1,94 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +170V
+D Power flag, +170V
+K power-flag
+$ENDCMP
+#
+$CMP CC1125
+D Ultra-High Performance RF Narrowband Transceiver
+F https://www.ti.com/lit/ds/symlink/cc1125.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP HV5522
+D 32 Channel High Voltage Shift Register
+$ENDCMP
+#
+$CMP HV5523
+D High Voltage Shift Register
+K HV5523, High, Voltage
+$ENDCMP
+#
+$CMP HV_GND
+D Power flag, +170V
+K power-flag
+$ENDCMP
+#
+$CMP LDL1117
+D High PSRR LDO Linear Voltage Regulator
+K ldo,voltage,regulator
+$ENDCMP
+#
+$CMP LED_ABGR
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP MB10S
+D 1000V 0.5A Full Bridge Rectifier
+$ENDCMP
+#
+$CMP PSMN014-80YL
+D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
+K N-Channel MOSFET
+F https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf
+$ENDCMP
+#
+$CMP RFN2LAM6STFTR
+D Diode symbol for simulation only. Pin order incompatible with official kicad footprints
+K simulation
+F ~
+$ENDCMP
+#
+$CMP TL1963A-33DCYR
+D 3.3V LDO Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/tl1963a.pdf
+$ENDCMP
+#
+$CMP TPS23731
+D Type 2 PoE PD Controller
+$ENDCMP
+#
+$CMP TPS23753A
+D Type 1 PoE PD Controller
+$ENDCMP
+#
+$CMP TPS40210
+D TI Boost Controller
+K boost,switchmode,controller
+$ENDCMP
+#
+$CMP Wurth_74982104400
+D Ethernet MagJack with PoE
+$ENDCMP
+#
+#End Doc Library
