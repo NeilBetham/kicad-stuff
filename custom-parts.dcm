@@ -110,6 +110,10 @@ D TI Boost Controller
 K boost,switchmode,controller
 $ENDCMP
 #
+$CMP TPS79930
+D Low-Quiescent Current, Ultralow Noise, High-PSRR Low-Dropout Linear
+$ENDCMP
+#
 $CMP Wurth_74982104400
 D Ethernet MagJack with PoE
 $ENDCMP
