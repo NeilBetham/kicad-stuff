@@ -10,6 +10,16 @@ D Ultra-High Performance RF Narrowband Transceiver
 F https://www.ti.com/lit/ds/symlink/cc1125.pdf
 $ENDCMP
 #
+$CMP D_TVS
+D Uni-Directional TVS Diode
+$ENDCMP
+#
+$CMP EL817
+D DC Optocoupler, Vce 35V, DIP-4
+K NPN DC Optocoupler
+F http://www.everlight.com/file/ProductFile/EL817.pdf
+$ENDCMP
+#
 $CMP ESP32-WROOM-32
 D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
 K RF Radio BT ESP ESP32 Espressif
@@ -20,6 +30,11 @@ $CMP ESP32-WROOM-32D
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
 K RF Radio BT ESP ESP32 Espressif
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP FOD817A3SD
+D DC Optocoupler
+K NPN DC Optocoupler
 $ENDCMP
 #
 $CMP HV5522
@@ -57,6 +72,10 @@ $CMP MB10S
 D 1000V 0.5A Full Bridge Rectifier
 $ENDCMP
 #
+$CMP POE70P-33
+D 7W PoE Flyback Transformer 1:0.19:0.667 155uH
+$ENDCMP
+#
 $CMP PSMN014-80YL
 D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
 K N-Channel MOSFET
@@ -74,6 +93,10 @@ D 3.3V LDO Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/tl1963a.pdf
 $ENDCMP
 #
+$CMP TLV431ACDBZR
+D Precision Voltage Reference
+$ENDCMP
+#
 $CMP TPS23731
 D Type 2 PoE PD Controller
 $ENDCMP
@@ -85,6 +108,10 @@ $ENDCMP
 $CMP TPS40210
 D TI Boost Controller
 K boost,switchmode,controller
+$ENDCMP
+#
+$CMP TPS79930
+D Low-Quiescent Current, Ultralow Noise, High-PSRR Low-Dropout Linear
 $ENDCMP
 #
 $CMP Wurth_74982104400
