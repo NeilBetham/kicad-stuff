@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\neilbetham\code\kicad-stuff\davis-receiver\davis-receiver.sch</h1>
+    <p>4/5/2021 20:50:17</p>
+    <p>Eeschema (5.1.8)-1</p>
+    <p><b>Component Count:</b>150</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C7, C14, C17, C35, C37, C39, C41, C44, C49, C54, C55, C56, C58, C59, C60, C62, C63, C64, C66, C67, C68, C69, C70</td><td>25</td><td>0.1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C3, C5, C8, C11, C12, C22, C25, C28, C31, C32</td><td>10</td><td>0.047uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C4</td><td>1</td><td>220nF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C6, C13, C16</td><td>3</td><td>22pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C9, C15</td><td>2</td><td>0.01uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C10, C61</td><td>2</td><td>2.2uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C18</td><td>1</td><td>33pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C19, C47</td><td>2</td><td>100pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C20</td><td>1</td><td>15pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C21</td><td>1</td><td>10nF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C23, C26</td><td>2</td><td>3.3pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C24, C38</td><td>2</td><td>47nF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C27</td><td>1</td><td>1pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C29</td><td>1</td><td>1.8nF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C30</td><td>1</td><td>2.2pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C33</td><td>1</td><td>3pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C34</td><td>1</td><td>22uF 63V</td><td>Device:C</td><td>Capacitor_SMD:C_2220_5650Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C36</td><td>1</td><td>1uF 100V</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C40</td><td>1</td><td>0.22uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C42</td><td>1</td><td>10nF 100V</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C43</td><td>1</td><td>10uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C45</td><td>1</td><td>2200pF 2KV</td><td>Device:C</td><td>Capacitor_SMD:C_1206_3216Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C46, C48, C65</td><td>3</td><td>1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C50</td><td>1</td><td>01.uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C51</td><td>1</td><td>47uf</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C52</td><td>1</td><td>6800pF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>C53, C57</td><td>2</td><td>47uF</td><td>Device:C</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>LED_ABGR</td><td>Custom:LED_ABGR</td><td>LED_SMD:LED_Cree-PLCC4_2x2mm_CW</td><td>RGB LED, anode/blue/red/green</td><td></td></tr>
+    <tr><td>D2</td><td>1</td><td>SMAJ58A</td><td>Custom:D_TVS</td><td>Custom:SMAJ58A</td><td>Uni-Directional TVS Diode</td><td></td></tr>
+    <tr><td>D3, D4, D5</td><td>3</td><td>RFN2LAM6STF</td><td>Device:D</td><td>Custom:RFN2LAM6STF</td><td>Diode</td><td></td></tr>
+    <tr><td>D6</td><td>1</td><td>PMEG045V100EPD</td><td>Device:D_Schottky</td><td>Custom:CFP15</td><td>Schottky diode</td><td></td></tr>
+    <tr><td>H1, H2, H3, H4</td><td>4</td><td>MountingHole</td><td>Mechanical:MountingHole</td><td>MountingHole:MountingHole_4.3mm_M4_Pad_Via</td><td>Mounting Hole without connection</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Conn_Coaxial</td><td>Connector:Conn_Coaxial</td><td>Custom:CONREVSMA003.062-G</td><td>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>Wurth_74982104400</td><td>Custom:Wurth_74982104400</td><td>Custom:Wurth_74982104400</td><td>Ethernet MagJack with PoE</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>JTAG</td><td>Custom:TC-2050-Cortex-JTAG</td><td>Custom:TC2050-IDC-FP</td><td></td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>UART</td><td>Custom:TC2030-UART</td><td>Custom:TC2030-IDC-FP</td><td></td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>SPI-BARO</td><td>Custom:TC2030-GPIO</td><td>Custom:TC2030-IDC-FP</td><td></td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>SPI-RF</td><td>Custom:TC2030-GPIO</td><td>Custom:TC2030-IDC-FP</td><td></td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>10nH</td><td>Device:L</td><td>Inductor_SMD:L_0805_2012Metric</td><td>Inductor</td><td></td></tr>
+    <tr><td>L2</td><td>1</td><td>15nH</td><td>Device:L</td><td>Inductor_SMD:L_0805_2012Metric</td><td>Inductor</td><td></td></tr>
+    <tr><td>L3, L4, L6, L8</td><td>4</td><td>12nH</td><td>Device:L</td><td>Inductor_SMD:L_0805_2012Metric</td><td>Inductor</td><td></td></tr>
+    <tr><td>L5</td><td>1</td><td>7.5nH</td><td>Device:L</td><td>Inductor_SMD:L_0805_2012Metric</td><td>Inductor</td><td></td></tr>
+    <tr><td>L7</td><td>1</td><td>18nH</td><td>Device:L</td><td>Inductor_SMD:L_0805_2012Metric</td><td>Inductor</td><td></td></tr>
+    <tr><td>L9</td><td>1</td><td>4.7uH SDR7030</td><td>Device:L_Core_Iron</td><td>Custom:SDR7030</td><td>Inductor with iron core</td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>FDC2512</td><td>Transistor_FET:FDC2512</td><td>Package_TO_SOT_SMD:SuperSOT-6</td><td>1.4A Id, 150V Vds, N-Channel MOSFET, 425mOhm Ron, SuperSOT-6</td><td></td></tr>
+    <tr><td>R1, R2, R3, R5</td><td>4</td><td>100</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>56K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R6</td><td>1</td><td>10</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R7, R26</td><td>2</td><td>10K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R8</td><td>1</td><td>59.0K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R9</td><td>1</td><td>80.6K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R10</td><td>1</td><td>1.27K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R11</td><td>1</td><td>24.9K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R12, R13, R15, R16, R22, R23</td><td>6</td><td>49.9</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R14, R25</td><td>2</td><td>402</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R17</td><td>1</td><td>4.87K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R18</td><td>1</td><td>49.9K 0.1W</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R19</td><td>1</td><td>2K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R20, R21</td><td>2</td><td>330</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R24</td><td>1</td><td>0.56 0.25W</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R27</td><td>1</td><td>7.15K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R28</td><td>1</td><td>41.2K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R29</td><td>1</td><td>13.3K</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>R30</td><td>1</td><td>51</td><td>Device:R</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>MCU_RESET</td><td>Switch:SW_Push</td><td>Custom:PTS636</td><td>Push button switch, generic, two pins</td><td></td></tr>
+    <tr><td>T1</td><td>1</td><td>POE70P-33</td><td>Custom:POE70P-33</td><td>Custom:POE70P</td><td>7W PoE Flyback Transformer 1:0.19:0.667 155uH</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>TM4C129ENCZADI3R</td><td>TM4C:TM4C129ENCZADI3R</td><td>Davis Receiver Footprints:TM4C129ENCZADI3R</td><td></td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>CC1125RHBR</td><td>CC1125:CC1125RHBR</td><td>Davis Receiver Footprints:CC1125RHBR</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>FXPS7115D4</td><td>Custom:FXPS7115D4</td><td>Custom:HQFN-16-4x4-1.98x0.8</td><td></td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>TPS79930DDCR</td><td>Custom:TPS79930</td><td>Custom:SOT-23-Thin-5</td><td>Low-Quiescent Current, Ultralow Noise, High-PSRR Low-Dropout Linear</td><td></td></tr>
+    <tr><td>U5, U6</td><td>2</td><td>MB10S</td><td>Custom:MB10S</td><td>Custom:SOIC-4W</td><td>1000V 0.5A Full Bridge Rectifier</td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>TPS23753A</td><td>Custom:TPS23753A</td><td>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</td><td>Type 1 PoE PD Controller</td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>FOD817A3SD</td><td>Custom:FOD817A3SD</td><td>Custom:SMD-4</td><td>DC Optocoupler</td><td></td></tr>
+    <tr><td>U9</td><td>1</td><td>TLV431ACDBZR</td><td>Custom:TLV431ACDBZR</td><td>Package_TO_SOT_SMD:SOT-23</td><td>Precision Voltage Reference</td><td></td></tr>
+    <tr><td>X1</td><td>1</td><td>ECS-2520MV-400-AY-TR</td><td>Oscillator:ECS-2520MV-xxx-xx</td><td>Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm</td><td>HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD</td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>LFXTAL071758CUTT</td><td>Device:Crystal_GND24</td><td>Custom:LFXTAL071758CUTT</td><td>Four pin crystal, GND on pins 2 and 4</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
