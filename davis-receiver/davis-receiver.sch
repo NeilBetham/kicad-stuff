@@ -4051,7 +4051,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2600 6350 2600
 $Comp
-L Custom:TC-2050-Cortex-JTAG J3
+L davis-receiver-rescue:TC-2050-Cortex-JTAG-Custom J3
 U 1 1 606A9E30
 P 18150 19300
 F 0 "J3" H 18175 19765 50  0000 C CNN

@@ -4490,4 +4490,9 @@ F 3 "~" H 20300 15400 50  0001 C CNN
 	1    20300 15400
 	0    -1   -1   0   
 $EndComp
+Text Label 15300 6000 0    50   ~ 0
+SHLD
+Wire Wire Line
+	15300 6000 15600 6000
+Connection ~ 15600 6000
 $EndSCHEMATC

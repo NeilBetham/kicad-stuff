@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name CC1125)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/CC1125RHBR.lib)(options "")(descr ""))
   (lib (name TM4C)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/TM4C129ENCZADI3R.lib)(options "")(descr ""))
+  (lib (name davis-receiver-rescue)(type Legacy)(uri ${KIPRJMOD}/davis-receiver-rescue.lib)(options "")(descr ""))
 )

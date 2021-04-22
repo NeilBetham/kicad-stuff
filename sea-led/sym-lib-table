@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TM4C)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/TM4C129ENCZADI3R.lib)(options "")(descr ""))
+)
