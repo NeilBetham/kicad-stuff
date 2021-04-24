@@ -1,4 +1,4 @@
-64134087318710
+78707275281184
 Custom
 1_1_0_version_tag
 
@@ -13,6 +13,13 @@ Custom
 0
 1
 1
+Custom
+2016L075_60MR
+
+
+0
+2
+2
 Custom
 54819-0589
 
@@ -63,6 +70,13 @@ IN-18 Socket
 14
 14
 Custom
+Keystone-3568
+
+
+0
+4
+2
+Custom
 LFXTAL071758CUTT
 
 
@@ -84,11 +98,25 @@ POE70P
 8
 8
 Custom
+PQ2614BHA-150K
+
+
+0
+3
+2
+Custom
 PTS636
 
 
 0
 2
+2
+Custom
+Panasonic-Electrolytic-K16
+
+
+0
+4
 2
 Custom
 PhoenixContact PTSA 4Pin
@@ -97,6 +125,20 @@ PhoenixContact PTSA 4Pin
 0
 4
 4
+Custom
+PhoenixContact-PTS-1_5-2POS-1703084
+
+
+0
+2
+2
+Custom
+PhoenixContact-PTS-1_5-5POS-1792892
+
+
+0
+5
+5
 Custom
 PhoenixContact_PTSA_2PIN_8A
 
@@ -140,6 +182,13 @@ SDR7030
 2
 2
 Custom
+SMAJ30CA
+30V TVS Diode
+
+0
+2
+2
+Custom
 SMAJ58A
 
 
@@ -174,6 +223,13 @@ SOT-23-Thin-5
 0
 5
 5
+Custom
+SRP1265A-150M
+
+
+0
+2
+2
 Custom
 TC2030-IDC-FP
 
@@ -222,6 +278,13 @@ TI_RMQ0024A
 
 0
 31
+25
+Custom
+VQFN-24
+
+
+0
+38
 25
 Custom
 VSON-8
