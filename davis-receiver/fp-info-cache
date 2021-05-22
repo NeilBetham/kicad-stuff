@@ -1,4 +1,4 @@
-19839447926399673
+19857258684403071
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48783,6 +48783,13 @@ Custom
 1
 1
 Custom
+2016L075_60MR
+
+
+0
+2
+2
+Custom
 54819-0589
 
 
@@ -48832,6 +48839,13 @@ IN-18 Socket
 14
 14
 Custom
+Keystone-3568
+
+
+0
+4
+2
+Custom
 LFXTAL071758CUTT
 
 
@@ -48853,11 +48867,25 @@ POE70P
 8
 8
 Custom
+PQ2614BHA-150K
+
+
+0
+3
+2
+Custom
 PTS636
 
 
 0
 2
+2
+Custom
+Panasonic-Electrolytic-K16
+
+
+0
+4
 2
 Custom
 PhoenixContact PTSA 4Pin
@@ -48866,6 +48894,20 @@ PhoenixContact PTSA 4Pin
 0
 4
 4
+Custom
+PhoenixContact-PTS-1_5-2POS-1703084
+
+
+0
+2
+2
+Custom
+PhoenixContact-PTS-1_5-5POS-1792892
+
+
+0
+5
+5
 Custom
 PhoenixContact_PTSA_2PIN_8A
 
@@ -48880,6 +48922,13 @@ PhoenixContact_PTSA_2Pin
 0
 2
 2
+Custom
+PowerPAD-SOIC-8
+
+
+0
+18
+9
 Custom
 RFN2LAM6STF
 
@@ -48897,6 +48946,13 @@ resistor handsolder
 Custom
 SDR7030
 
+
+0
+2
+2
+Custom
+SMAJ30CA
+30V TVS Diode
 
 0
 2
@@ -48936,6 +48992,13 @@ SOT-23-Thin-5
 0
 5
 5
+Custom
+SRP1265A-150M
+
+
+0
+2
+2
 Custom
 TC2030-IDC-FP
 
@@ -48985,6 +49048,20 @@ TI_RMQ0024A
 0
 31
 25
+Custom
+VQFN-24
+
+
+0
+38
+25
+Custom
+VSON-8
+
+
+0
+13
+9
 Custom
 WSON-6-TI
 
