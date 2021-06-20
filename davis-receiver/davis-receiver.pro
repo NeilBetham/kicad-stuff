@@ -1,4 +1,4 @@
-update=4/13/2021 22:36:39
+update=6/20/2021 02:30:43
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=../../../Desktop/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -276,7 +276,7 @@ dPairGap=0.556867
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=HV
-Clearance=0.127
+Clearance=1
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4

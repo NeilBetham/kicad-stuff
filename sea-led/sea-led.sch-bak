@@ -3271,28 +3271,6 @@ F 3 "~" H 23350 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
-U 1 1 60A88439
-P 8050 12450
-F 0 "TP12" H 8108 12568 50  0000 L CNN
-F 1 "TestPoint" H 8108 12477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8250 12450 50  0001 C CNN
-F 3 "~" H 8250 12450 50  0001 C CNN
-	1    8050 12450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP13
-U 1 1 60A8A8A7
-P 8150 12650
-F 0 "TP13" H 8208 12768 50  0000 L CNN
-F 1 "TestPoint" H 8208 12677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8350 12650 50  0001 C CNN
-F 3 "~" H 8350 12650 50  0001 C CNN
-	1    8150 12650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP16
 U 1 1 60B85D11
 P 11750 13050
@@ -3321,13 +3299,9 @@ Wire Wire Line
 Wire Wire Line
 	8700 12900 9050 12900
 Wire Wire Line
-	8150 13000 8150 12650
+	8700 13000 9050 13000
 Wire Wire Line
-	8150 13000 9050 13000
-Wire Wire Line
-	8050 13100 8050 12450
-Wire Wire Line
-	8050 13100 9050 13100
+	8700 13100 9050 13100
 Wire Wire Line
 	13400 12850 13250 12850
 Wire Wire Line
