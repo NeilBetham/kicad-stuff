@@ -1,4 +1,4 @@
-19879548083833183
+19882857322949481
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49385,6 +49385,13 @@ DFN-10
 11
 11
 Custom
+DFN-12L
+
+
+0
+17
+11
+Custom
 D_SOD-123
 SOD-123
 SOD-123
@@ -49412,6 +49419,13 @@ HVQFN-20
 0
 25
 21
+Custom
+HX2QFN16
+
+
+0
+18
+17
 Custom
 IN-18 Socket
 
