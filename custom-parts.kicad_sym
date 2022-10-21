@@ -2521,6 +2521,10 @@
         (name "MON1" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
+      (pin input line (at 0 -15.24 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
       (pin bidirectional line (at -2.54 15.24 270) (length 2.54)
         (name "GATE1" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
