@@ -1,4 +1,4 @@
-19878234540051461
+19901181912547668
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49336,6 +49336,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Custom
+7490220123
+
+
+0
+24
+24
+Custom
 1_1_0_version_tag
 
 
@@ -49494,8 +49501,8 @@ PQ2614BLA-BHA
 
 
 0
-2
-2
+3
+3
 Custom
 PTS636
 
@@ -49573,6 +49580,13 @@ RFN2LAM6STF
 0
 2
 2
+Custom
+RJE59-188-54A1
+
+
+0
+14
+13
 Custom
 R_GMR_100
 Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
