@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name TM4C)(type Legacy)(uri ${KIPRJMOD}/libs/symbols/TM4C129ENCZADI3R.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "TM4C")(type "Legacy")(uri "${KIPRJMOD}/libs/symbols/TM4C129ENCZADI3R.lib")(options "")(descr ""))
+  (lib (name "sea-led-rescue")(type "KiCad")(uri "${KIPRJMOD}/sea-led-rescue.kicad_sym")(options "")(descr ""))
 )
