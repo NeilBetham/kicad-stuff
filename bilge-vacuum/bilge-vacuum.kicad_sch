@@ -1233,9 +1233,6 @@
   (junction (at 447.04 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 2eb61519-206e-4f3d-9f28-8a587f249cfd)
   )
-  (junction (at 342.9 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid 45cf20e2-0deb-48db-b24c-bdc5e43b8073)
-  )
   (junction (at 119.38 130.175) (diameter 0) (color 0 0 0 0)
     (uuid 463b30a5-85a0-4ccb-a386-9cb8efc29f97)
   )
@@ -1497,10 +1494,6 @@
   (wire (pts (xy 365.76 88.9) (xy 365.76 91.44))
     (stroke (width 0) (type default))
     (uuid 53f88a3c-a101-41a7-9a6e-f2c0cfb4c6d9)
-  )
-  (wire (pts (xy 342.9 99.06) (xy 342.9 97.79))
-    (stroke (width 0) (type default))
-    (uuid 59d70ec7-56c0-4f3d-977a-6a17112c07c1)
   )
   (wire (pts (xy 279.4 78.74) (xy 261.62 78.74))
     (stroke (width 0) (type default))
@@ -1825,6 +1818,12 @@
   (wire (pts (xy 299.72 73.66) (xy 289.56 73.66))
     (stroke (width 0) (type default))
     (uuid fd9791af-c490-4dba-b78f-e2491cbebf9a)
+  )
+
+  (text "Display: NHD-C12864A1Z-FSW-FBW-HTT\n3v3 Buck: LTC3851\n24v Boost: LTC3786\nFRAM: FM25V20A-DGQ\n4-20ma Prot: MAX14626ETT+T\nHigh Side Switches: TPS1HC30-Q1"
+    (at 186.69 43.815 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 40f8f761-29ad-4bef-aa2d-780464ff28a1)
   )
 
   (label "IND_R" (at 92.075 93.345 180) (fields_autoplaced)
