@@ -1,4 +1,4 @@
-21982941858323462
+21986334625457068
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51933,6 +51933,13 @@ TC2070-IDC-NL
 14
 14
 Custom Parts
+TDFN-6
+
+
+0
+7
+7
+Custom Parts
 TDFN-8
 
 
@@ -51981,6 +51988,13 @@ VSON-8
 0
 13
 9
+Custom Parts
+WQFN-16
+
+
+0
+17
+17
 Custom Parts
 WSON-6-TI
 
