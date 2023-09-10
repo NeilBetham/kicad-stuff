@@ -1,4 +1,4 @@
-21986334625457068
+21994825860165584
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51576,6 +51576,27 @@ CONREVSMA003.062-G
 5
 2
 Custom Parts
+CP_6_3_ADI
+
+ADP151ACPZ-1.8-R7 
+0
+7
+7
+Custom Parts
+CP_6_3_ADI-L
+
+ADP151ACPZ-1.8-R7 
+0
+7
+7
+Custom Parts
+CP_6_3_ADI-M
+
+ADP151ACPZ-1.8-R7 
+0
+7
+7
+Custom Parts
 DE14
 
 
@@ -51673,6 +51694,13 @@ NA6252-AL
 0
 8
 8
+Custom Parts
+NHD-C12864A1Z-FSW-FBW-HTT
+
+
+0
+12
+12
 Custom Parts
 POE70P
 
@@ -51954,12 +51982,12 @@ TI_RMQ0024A
 31
 25
 Custom Parts
-TSSOP-14
+UDFN-6
 
 
 0
-15
-15
+0
+0
 Custom Parts
 UFQFPN-20
 
@@ -51988,6 +52016,13 @@ VSON-8
 0
 13
 9
+Custom Parts
+WDFN-8
+
+
+0
+0
+0
 Custom Parts
 WQFN-16
 
