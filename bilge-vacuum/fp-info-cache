@@ -1,4 +1,4 @@
-21994825860165584
+21996610231641405
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51905,7 +51905,7 @@ SRP0620
 2
 2
 Custom Parts
-SRP1265A-150M
+SRP1265A
 
 
 0
@@ -51975,6 +51975,13 @@ TDFN-8
 9
 9
 Custom Parts
+TDK-ERU-16
+
+
+0
+3
+3
+Custom Parts
 TI_RMQ0024A
 
 
@@ -52021,8 +52028,8 @@ WDFN-8
 
 
 0
-0
-0
+13
+9
 Custom Parts
 WQFN-16
 
