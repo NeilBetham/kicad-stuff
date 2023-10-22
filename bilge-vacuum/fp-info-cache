@@ -1,4 +1,4 @@
-21996610231641405
+21998331049101771
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52016,6 +52016,13 @@ VQFN-24
 0
 38
 25
+Custom Parts
+VQFN-36
+
+
+0
+0
+0
 Custom Parts
 VSON-8
 
