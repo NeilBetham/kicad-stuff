@@ -471,6 +471,62 @@
     [
       "08405ba3-6912-4dc1-869a-b11176a5bc8a",
       ""
+    ],
+    [
+      "75bab21f-91ff-472d-9eda-e6cf042b5388",
+      "Pump Switch"
+    ],
+    [
+      "c0c27d52-e195-48ac-b3ac-e8956acbf957",
+      "Solenoid 1"
+    ],
+    [
+      "b242a460-8d51-4ac5-8702-0964ca4c595f",
+      "Solenoid 3"
+    ],
+    [
+      "4c1623b3-0ea5-4447-9ca6-cb881a6787c5",
+      "Solenoid 4"
+    ],
+    [
+      "d3a4e861-8bd1-49e1-a580-0fd3f4c593c9",
+      "Solenoid 2"
+    ],
+    [
+      "f4009a8b-181d-4005-8c08-1454b9ebf288",
+      "3.3V Buck"
+    ],
+    [
+      "d555c078-7460-4e48-bad9-86c4da0fb48e",
+      "Pressure Transducer"
+    ],
+    [
+      "4fe73278-b18f-41f4-9790-22d6554da625",
+      "Input Protection"
+    ],
+    [
+      "21ed8de0-882b-4344-b639-efb2b358b0a9",
+      "24V Boost"
+    ],
+    [
+      "8a95e837-e0e7-4b78-93e7-7ab95e7c82dc",
+      "Power"
+    ],
+    [
+      "50bece30-ef08-4da5-bd3a-5a664505cc0f",
+      "Main uC"
+    ],
+    [
+      "16850e27-1e2e-4e85-af36-1238f6162217",
+      "Output Control"
+    ],
+    [
+      "e92f0017-28c5-48da-b5ea-79b515345207",
+      "FRAM"
+    ],
+    [
+      "07659435-27ac-43e5-b4d9-8df79f6681d1",
+      "Display"
     ]
   ],
   "text_variables": {}
