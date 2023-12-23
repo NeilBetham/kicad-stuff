@@ -1,4 +1,4 @@
-21998331049101771
+22008551122096175
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51548,6 +51548,13 @@ Custom Parts
 2
 2
 Custom Parts
+2604-1102
+
+
+0
+4
+2
+Custom Parts
 54819-0589
 
 
@@ -51674,6 +51681,13 @@ IN-18 Socket
 14
 14
 Custom Parts
+JS5208
+
+
+0
+6
+6
+Custom Parts
 Keystone-3568
 
 
@@ -51702,6 +51716,13 @@ NHD-C12864A1Z-FSW-FBW-HTT
 12
 12
 Custom Parts
+PKLCS1212E40A1-R1
+
+
+0
+0
+0
+Custom Parts
 POE70P
 
 
@@ -51728,6 +51749,20 @@ PTS636
 
 0
 2
+2
+Custom Parts
+Panasonic - F - Vibe
+
+
+0
+4
+2
+Custom Parts
+Panasonic - J - Vibe
+
+
+0
+4
 2
 Custom Parts
 Panasonic-Electrolytic-K16
@@ -51898,6 +51933,13 @@ SOT23-3L
 3
 3
 Custom Parts
+SOT23-5
+
+
+0
+5
+5
+Custom Parts
 SRP0620
 
 
@@ -52021,8 +52063,8 @@ VQFN-36
 
 
 0
-0
-0
+50
+38
 Custom Parts
 VSON-8
 
