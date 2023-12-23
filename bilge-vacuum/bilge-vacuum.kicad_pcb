@@ -195,7 +195,7 @@
   (net 117 "/FRAM/CS")
   (net 118 "/FRAM/MISO")
   (net 119 "unconnected-(U14-DNU-Pad7)")
-  (net 120 "+BATT")
+  (net 120 "/Power/Input Protection/VIN")
   (net 121 "unconnected-(J1-SWO-Pad4)")
   (net 122 "/Main uC/SWDCLK")
   (net 123 "/Main uC/SWDIO")
@@ -656,7 +656,7 @@
 
   (footprint "Custom Parts:JS5208" (layer "F.Cu")
     (tstamp 0fcee47f-c874-4ff7-b61e-b06fc3561c26)
-    (at 126.26 61.765)
+    (at 272.8 20.6)
     (property "Field2" "")
     (property "Sheetfile" "main_uc.kicad_sch")
     (property "Sheetname" "Main uC")
@@ -712,7 +712,7 @@
 
   (footprint "Custom Parts:QFN-16" (layer "F.Cu")
     (tstamp 11a332ab-2ffe-4cc0-8332-95d2a8a787a5)
-    (at 47.335 152.725)
+    (at 13.2 174.25)
     (property "Sheetfile" "3v3_buck.kicad_sch")
     (property "Sheetname" "3.3V Buck")
     (path "/8a95e837-e0e7-4b78-93e7-7ab95e7c82dc/f4009a8b-181d-4005-8c08-1454b9ebf288/88bbd9fe-2e7b-4c2d-9b05-be177d434608")
@@ -847,7 +847,7 @@
 
   (footprint "Custom Parts:Panasonic - F - Vibe" (layer "F.Cu")
     (tstamp 1395a2d1-8260-478b-8b92-3066bf113f14)
-    (at 134.2 44.49)
+    (at 207 21.8)
     (property "Sheetfile" "24v_boost.kicad_sch")
     (property "Sheetname" "24V Boost")
     (property "ki_description" "Polarized capacitor, US symbol")
@@ -965,7 +965,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 33378372-ddaa-4cd2-a8a3-0ce4982dc617)
     )
-    (fp_text value "10uF 25V" (at 0 1.85) (layer "F.Fab")
+    (fp_text value "10uF 25V" (at -0.095 2.305) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a17de263-0896-456a-9915-23464cf03fb7)
     )
@@ -1047,7 +1047,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp 19bbb8d9-fb79-40b2-85d1-0cf17b18429a)
-    (at 151.36 110.03)
+    (at 251.1 90.5)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Pump Switch")
     (property "ki_description" "Schottky diode")
@@ -1309,7 +1309,7 @@
 
   (footprint "Custom Parts:2604-1102" (layer "F.Cu")
     (tstamp 20fbf862-a0a0-4072-9ee8-4b20c8dc067c)
-    (at 37.16 97.97)
+    (at 189.5 104.2)
     (property "Sheetfile" "output_control.kicad_sch")
     (property "Sheetname" "Output Control")
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -1667,7 +1667,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-3" (layer "F.Cu")
     (tstamp 32053301-b4fa-4097-97c0-1db4231d4a64)
-    (at 145.245 64.815)
+    (at 280.4 54.2)
     (descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Field2" "")
@@ -1730,7 +1730,7 @@
 
   (footprint "Package_TO_SOT_SMD:LFPAK56" (layer "F.Cu")
     (tstamp 3675077d-a153-407d-948b-f79a42856b4c)
-    (at 112.99 114.085)
+    (at 89.8 170.25)
     (descr "LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf")
     (tags "LFPAK56 SOT-669 Power-SO8")
     (property "Sheetfile" "e-fuse.kicad_sch")
@@ -1854,7 +1854,7 @@
 
   (footprint "Custom Parts:UFQFPN-48" (layer "F.Cu")
     (tstamp 37a5c4df-335b-4075-a3a9-0ee802fa4e8d)
-    (at 166.19755 35.2998)
+    (at 249.775 35.75)
     (property "Field2" "")
     (property "Sheetfile" "main_uc.kicad_sch")
     (property "Sheetname" "Main uC")
@@ -2222,6 +2222,35 @@
     )
   )
 
+  (footprint "Custom Parts:2604-1102" (layer "F.Cu")
+    (tstamp 3e0f642f-f8b6-478c-8b03-ff6972da4944)
+    (at 134.1 176.85)
+    (property "Sheetfile" "power.kicad_sch")
+    (property "Sheetname" "Power")
+    (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+    (property "ki_keywords" "screw terminal")
+    (path "/8a95e837-e0e7-4b78-93e7-7ab95e7c82dc/cc78260a-cba9-42c3-9555-2a7bf3015deb")
+    (attr through_hole)
+    (fp_text reference "J2" (at 0 -7.9 unlocked) (layer "F.SilkS")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 1534a9a0-c1f6-4de9-9b9d-76e0c4035eb4)
+    )
+    (fp_text value "Screw_Terminal_01x02" (at 0 11.3 unlocked) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp db2fbcd6-11e3-447c-aa5f-d36005562b83)
+    )
+    (fp_rect (start -6.1 -7) (end 6.3 9.3)
+      (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 31bcf9f1-de79-47f5-b3d0-b400d9790f04))
+    (pad "1" thru_hole circle (at -2.5 -4.1) (size 2.6 2.6) (drill 1.3) (layers "*.Cu" "*.Mask")
+      (net 120 "/Power/Input Protection/VIN") (pinfunction "Pin_1") (pintype "passive") (tstamp 82876e9d-544a-4ce9-8d0c-1fbac0a52102))
+    (pad "1" thru_hole circle (at -2.5 4.1) (size 2.6 2.6) (drill 1.3) (layers "*.Cu" "*.Mask")
+      (net 120 "/Power/Input Protection/VIN") (pinfunction "Pin_1") (pintype "passive") (tstamp b0f54426-7c16-48ad-bba9-0562b68b0292))
+    (pad "2" thru_hole circle (at 2.5 -4.1) (size 2.6 2.6) (drill 1.3) (layers "*.Cu" "*.Mask")
+      (net 4 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 0a6bee72-e490-42bd-b248-a5ca383122c0))
+    (pad "2" thru_hole circle (at 2.5 4.1) (size 2.6 2.6) (drill 1.3) (layers "*.Cu" "*.Mask")
+      (net 4 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 004935be-4821-4599-9537-4c4af72dec53))
+  )
+
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 3f440b53-eb00-4f6d-afbb-98a08d606c5b)
     (at 37.135 84.075)
@@ -2387,7 +2416,7 @@
 
   (footprint "Custom Parts:WQFN-16" (layer "F.Cu")
     (tstamp 4214b8b3-5869-4334-b1e5-b16a2a514606)
-    (at 149.86 116.95)
+    (at 218.35 85.55)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 3")
     (path "/16850e27-1e2e-4e85-af36-1238f6162217/b242a460-8d51-4ac5-8702-0964ca4c595f/a647d4ef-44b9-4683-a483-02697dddba6e")
@@ -2843,7 +2872,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp 4c159267-5a31-47dd-a445-3a3a8a4993ed)
-    (at 88.71 132.36)
+    (at 205.45 91.12)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 2")
     (property "ki_description" "Schottky diode")
@@ -3322,7 +3351,7 @@
 
   (footprint "Custom Parts:Panasonic - J - Vibe" (layer "F.Cu")
     (tstamp 56321963-00c9-4a30-b66e-e12ccc876ed0)
-    (at 113.57 100.61)
+    (at 114.8 177.6)
     (property "Sheetfile" "e-fuse.kicad_sch")
     (property "Sheetname" "Input Protection")
     (property "ki_description" "Polarized capacitor, small symbol")
@@ -3377,7 +3406,7 @@
 
   (footprint "Custom Parts:2604-1102" (layer "F.Cu")
     (tstamp 56a24c23-ad81-46de-b474-a04383124954)
-    (at 77.72 97.97)
+    (at 234.3 104)
     (property "Sheetfile" "output_control.kicad_sch")
     (property "Sheetname" "Output Control")
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -3406,7 +3435,7 @@
 
   (footprint "Custom Parts:WQFN-16" (layer "F.Cu")
     (tstamp 5a99f2d5-3313-4ba5-86fd-f19d5558ed7a)
-    (at 149.86 93.27)
+    (at 233 84.7)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 4")
     (path "/16850e27-1e2e-4e85-af36-1238f6162217/4c1623b3-0ea5-4447-9ca6-cb881a6787c5/a647d4ef-44b9-4683-a483-02697dddba6e")
@@ -3700,7 +3729,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp 64c6825b-8bc2-4c61-878f-4972513ed347)
-    (at 151.36 121.87)
+    (at 219.85 90.47)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 3")
     (property "ki_description" "Schottky diode")
@@ -3959,7 +3988,7 @@
 
   (footprint "Button_Switch_THT:SW_PUSH_6mm" (layer "F.Cu")
     (tstamp 6d719410-d57a-4326-a321-d66733cc802c)
-    (at 139.245 56.065)
+    (at 231.15 30.95)
     (descr "https://www.omron.com/ecb/products/pdf/en-b3f.pdf")
     (tags "tact sw push 6mm")
     (property "Field2" "")
@@ -4042,7 +4071,7 @@
 
   (footprint "Custom Parts:VQFN-36" (layer "F.Cu")
     (tstamp 6e142e36-e6f3-46b3-9057-c5beb7bbf3e9)
-    (at 121.55 113.26)
+    (at 89.318 178.25)
     (property "Sheetfile" "e-fuse.kicad_sch")
     (property "Sheetname" "Input Protection")
     (path "/8a95e837-e0e7-4b78-93e7-7ab95e7c82dc/4fe73278-b18f-41f4-9790-22d6554da625/0a03d1b8-024e-4375-938f-5526bb30bcc8")
@@ -4240,7 +4269,7 @@
 
   (footprint "Package_TO_SOT_SMD:LFPAK56" (layer "F.Cu")
     (tstamp 6fd9fd1f-b5b4-4c94-a55c-ebe8eb9b6b42)
-    (at 59.01 139.555)
+    (at 56.915 175.31)
     (descr "LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf")
     (tags "LFPAK56 SOT-669 Power-SO8")
     (property "Sheetfile" "3v3_buck.kicad_sch")
@@ -4462,7 +4491,7 @@
 
   (footprint "Custom Parts:2604-1102" (layer "F.Cu")
     (tstamp 74797376-c797-4b24-abfd-365621461a5d)
-    (at 91.24 97.97)
+    (at 250 103.8)
     (property "Sheetfile" "output_control.kicad_sch")
     (property "Sheetname" "Output Control")
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -4770,7 +4799,7 @@
 
   (footprint "Package_TO_SOT_SMD:LFPAK56" (layer "F.Cu")
     (tstamp 83b7770c-9ccb-46f9-88ee-9dec5f4b1ea0)
-    (at 59.01 146.105)
+    (at 56.915 181.86)
     (descr "LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf")
     (tags "LFPAK56 SOT-669 Power-SO8")
     (property "Sheetfile" "3v3_buck.kicad_sch")
@@ -5002,7 +5031,7 @@
 
   (footprint "Custom Parts:PKLCS1212E40A1-R1" (layer "F.Cu")
     (tstamp 854dbd87-ad4e-4cc5-b263-03c8546b25d4)
-    (at 122 76.15)
+    (at 276.7 42.6)
     (property "Field2" "")
     (property "Sheetfile" "main_uc.kicad_sch")
     (property "Sheetname" "Main uC")
@@ -5154,7 +5183,7 @@
 
   (footprint "Custom Parts:2604-1102" (layer "F.Cu")
     (tstamp 8d1f2a7a-5d88-4a08-a7d1-840761aa8733)
-    (at 106.76 135.42)
+    (at 276.5 103.55)
     (property "Sheetfile" "4-20ma_frontend.kicad_sch")
     (property "Sheetname" "Pressure Transducer")
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -5941,7 +5970,7 @@
 
   (footprint "Custom Parts:Panasonic - F - Vibe" (layer "F.Cu")
     (tstamp a4cc0164-e3de-468d-b356-010846fb4169)
-    (at 44.22 130.43)
+    (at 37.9 175.6)
     (property "Sheetfile" "3v3_buck.kicad_sch")
     (property "Sheetname" "3.3V Buck")
     (property "ki_description" "Polarized capacitor, US symbol")
@@ -6046,7 +6075,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp a6cba3f2-fa77-4318-a39f-55b49c957947)
-    (at 151.36 98.19)
+    (at 234.5 89.62)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 4")
     (property "ki_description" "Schottky diode")
@@ -6087,7 +6116,7 @@
 
   (footprint "Custom Parts:TDK-ERU-16" (layer "F.Cu")
     (tstamp a7686155-464d-4d92-afe4-f9a260219f43)
-    (at 124.86 29.04)
+    (at 183.4 23.9)
     (property "Sheetfile" "24v_boost.kicad_sch")
     (property "Sheetname" "24V Boost")
     (property "ki_description" "Inductor")
@@ -6296,7 +6325,7 @@
 
   (footprint "Custom Parts:Panasonic - F - Vibe" (layer "F.Cu")
     (tstamp ae7f2c8f-0d53-4b24-a5fc-e48597186caa)
-    (at 53.94 130.43)
+    (at 47.62 175.6)
     (property "Sheetfile" "3v3_buck.kicad_sch")
     (property "Sheetname" "3.3V Buck")
     (property "ki_description" "Polarized capacitor, US symbol")
@@ -6564,7 +6593,7 @@
 
   (footprint "Custom Parts:2604-1102" (layer "F.Cu")
     (tstamp b7f85a83-1093-4648-9901-bd045c413d1d)
-    (at 50.68 97.97)
+    (at 205 103.7)
     (property "Sheetfile" "output_control.kicad_sch")
     (property "Sheetname" "Output Control")
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -6647,7 +6676,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp b9b7d9ee-2111-4307-892e-c2aedf1e99be)
-    (at 143.03 36.25)
+    (at 200.9 31.1)
     (property "Sheetfile" "24v_boost.kicad_sch")
     (property "Sheetname" "24V Boost")
     (property "ki_description" "Schottky diode")
@@ -6742,7 +6771,7 @@
 
   (footprint "Custom Parts:QFN-16" (layer "F.Cu")
     (tstamp be0e0b04-6aef-43a1-af11-8a37ef12de8c)
-    (at 174.95 25.2)
+    (at 196.35 20)
     (property "Sheetfile" "24v_boost.kicad_sch")
     (property "Sheetname" "24V Boost")
     (path "/8a95e837-e0e7-4b78-93e7-7ab95e7c82dc/21ed8de0-882b-4344-b639-efb2b358b0a9/27ab7d00-d780-4e45-9dfb-5789857ebce1")
@@ -7093,7 +7122,7 @@
 
   (footprint "Package_TO_SOT_SMD:LFPAK56" (layer "F.Cu")
     (tstamp c86235f0-fcb3-4683-b204-eec52e2e0855)
-    (at 124.98 41.915)
+    (at 216.7 18.9)
     (descr "LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf")
     (tags "LFPAK56 SOT-669 Power-SO8")
     (property "Sheetfile" "24v_boost.kicad_sch")
@@ -7217,7 +7246,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp c86b3979-33d4-42c4-9b20-1d669694c1d9)
-    (at 59.14 151.44)
+    (at 57.045 187.195)
     (property "Sheetfile" "3v3_buck.kicad_sch")
     (property "Sheetname" "3.3V Buck")
     (property "ki_description" "Schottky diode")
@@ -7258,7 +7287,7 @@
 
   (footprint "Custom Parts:WQFN-16" (layer "F.Cu")
     (tstamp cc02f990-4167-425a-86bc-4d3dc1c6ed80)
-    (at 87.21 127.44)
+    (at 203.95 86.2)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 2")
     (path "/16850e27-1e2e-4e85-af36-1238f6162217/d3a4e861-8bd1-49e1-a580-0fd3f4c593c9/a647d4ef-44b9-4683-a483-02697dddba6e")
@@ -7336,7 +7365,7 @@
 
   (footprint "Custom Parts:SRP1265A" (layer "F.Cu")
     (tstamp ce0a7985-fd5f-428f-be2a-817c0a958443)
-    (at 47.17 143.34)
+    (at 25.4 176.6)
     (property "Sheetfile" "3v3_buck.kicad_sch")
     (property "Sheetname" "3.3V Buck")
     (property "ki_description" "Inductor")
@@ -7504,7 +7533,7 @@
 
   (footprint "Custom Parts:SMA" (layer "F.Cu")
     (tstamp cf5cbe9f-4681-4b73-a053-cec78d0deff4)
-    (at 73.98 132.36)
+    (at 190.2 91.72)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 1")
     (property "ki_description" "Schottky diode")
@@ -7545,7 +7574,7 @@
 
   (footprint "Custom Parts:Keystone-3568" (layer "F.Cu")
     (tstamp d2f2cbbf-dabc-4c9d-a2d1-eb03401bdc81)
-    (at 162.34755 24.8798)
+    (at 95.4 185.6)
     (property "Sheetfile" "e-fuse.kicad_sch")
     (property "Sheetname" "Input Protection")
     (property "ki_description" "Fuse")
@@ -7601,9 +7630,9 @@
     (fp_line (start 8.25 3.5) (end 8.25 -3.5)
       (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp b90ded5f-dde4-4d5c-8a67-f92906da46fc))
     (pad "1" thru_hole circle (at -4.995 -1.7) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask")
-      (net 120 "+BATT") (pintype "passive") (tstamp 5fe8a867-e9ed-4969-9083-4755dd7f02b8))
+      (net 120 "/Power/Input Protection/VIN") (pintype "passive") (tstamp 5fe8a867-e9ed-4969-9083-4755dd7f02b8))
     (pad "1" thru_hole circle (at -4.995 1.7) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask")
-      (net 120 "+BATT") (pintype "passive") (tstamp c2cb2590-14c1-4650-b21f-14a024a2c80c))
+      (net 120 "/Power/Input Protection/VIN") (pintype "passive") (tstamp c2cb2590-14c1-4650-b21f-14a024a2c80c))
     (pad "2" thru_hole circle (at 4.995 -1.7) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask")
       (net 12 "Net-(U5-SENSE)") (pintype "passive") (tstamp 8ba3c533-b212-4134-9df9-c4b09343033a))
     (pad "2" thru_hole circle (at 4.995 1.7) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask")
@@ -7670,7 +7699,7 @@
 
   (footprint "Package_TO_SOT_SMD:LFPAK56" (layer "F.Cu")
     (tstamp d421d404-3839-4970-a917-a32860c726b5)
-    (at 124.98 48.465)
+    (at 216.7 25.45)
     (descr "LFPAK56 https://assets.nexperia.com/documents/outline-drawing/SOT669.pdf")
     (tags "LFPAK56 SOT-669 Power-SO8")
     (property "Sheetfile" "24v_boost.kicad_sch")
@@ -7848,7 +7877,7 @@
 
   (footprint "Custom Parts:Panasonic - J - Vibe" (layer "F.Cu")
     (tstamp d4c3090f-6e06-40ee-8c51-e15746a807a0)
-    (at 131.69 100.61)
+    (at 150.7 177.3)
     (property "Sheetfile" "e-fuse.kicad_sch")
     (property "Sheetname" "Input Protection")
     (property "ki_description" "Polarized capacitor, small symbol")
@@ -7957,7 +7986,7 @@
 
   (footprint "Custom Parts:WQFN-16" (layer "F.Cu")
     (tstamp d6d784f6-be52-4ff0-89cf-0b4285bfafad)
-    (at 72.48 127.44)
+    (at 188.7 86.8)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Solenoid 1")
     (path "/16850e27-1e2e-4e85-af36-1238f6162217/c0c27d52-e195-48ac-b3ac-e8956acbf957/a647d4ef-44b9-4683-a483-02697dddba6e")
@@ -8263,7 +8292,7 @@
 
   (footprint "Resistor_SMD:R_2010_5025Metric" (layer "F.Cu")
     (tstamp dbac25fa-73b1-4658-81b1-0f3d1f4f3dc5)
-    (at 117.325 129.965)
+    (at 275.8 91.4)
     (descr "Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "4-20ma_frontend.kicad_sch")
@@ -8317,7 +8346,7 @@
 
   (footprint "Custom Parts:2604-1102" (layer "F.Cu")
     (tstamp dc1a9040-245d-4b86-b640-f2659bfae0be)
-    (at 64.2 97.97)
+    (at 219.8 104.1)
     (property "Sheetfile" "output_control.kicad_sch")
     (property "Sheetname" "Output Control")
     (property "ki_description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -8401,7 +8430,7 @@
 
   (footprint "Custom Parts:WQFN-16" (layer "F.Cu")
     (tstamp e0b0d5bc-b1d2-461c-9d83-6f6b85fd6159)
-    (at 149.86 105.11)
+    (at 249.6 85.58)
     (property "Sheetfile" "high_side_switch.kicad_sch")
     (property "Sheetname" "Pump Switch")
     (path "/16850e27-1e2e-4e85-af36-1238f6162217/75bab21f-91ff-472d-9eda-e6cf042b5388/a647d4ef-44b9-4683-a483-02697dddba6e")
@@ -8978,7 +9007,7 @@
 
   (footprint "Custom Parts:TC2030-IDC-FP" (layer "F.Cu")
     (tstamp f4e30f94-1288-46db-bfb0-3c8038d86121)
-    (at 157.765 36.24)
+    (at 250.17 23.565)
     (property "Field2" "")
     (property "Sheetfile" "main_uc.kicad_sch")
     (property "Sheetname" "Main uC")
@@ -9127,7 +9156,7 @@
 
   (footprint "Custom Parts:WDFN-8" (layer "F.Cu")
     (tstamp f56ff614-aaa0-4619-ad55-abae2be922ef)
-    (at 68.53 140.17)
+    (at 260.035 51.3)
     (property "Sheetfile" "fram.kicad_sch")
     (property "Sheetname" "FRAM")
     (path "/e92f0017-28c5-48da-b5ea-79b515345207/10d40ede-bf02-449f-b97c-14413744d1f7")
@@ -9176,7 +9205,7 @@
 
   (footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW" (layer "F.Cu")
     (tstamp f8f7e128-9aee-4745-8ecd-fdd635a85bed)
-    (at 139.945 64.865)
+    (at 259 28.3)
     (descr "3.2mm x 2.8mm PLCC4 LED, http://www.cree.com/led-components/media/documents/CLV1AFKB(874).pdf")
     (tags "LED Cree PLCC-4")
     (property "Field2" "")
