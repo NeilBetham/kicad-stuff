@@ -690,7 +690,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b32f9e41-5647-4263-b09c-d0732062be4c)
   )
-  (label "PUMP_ENABLE" (at 238.76 51.435 180) (fields_autoplaced)
+  (label "PUMP_EN" (at 238.76 51.435 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ba2eeab8-e10c-48a3-97fa-0a33fdf8315a)
   )

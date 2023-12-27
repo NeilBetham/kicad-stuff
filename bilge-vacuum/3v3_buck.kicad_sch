@@ -1215,6 +1215,15 @@
     (uuid b10d4dcb-783c-48d4-9dce-5ebc921073a4)
   )
 
+  (label "BUCK_TG" (at 111.76 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 727a7103-1354-48ab-a9d7-209942e9a49c)
+  )
+  (label "BUCK_BG" (at 111.76 78.74 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d91811ad-d526-41a5-9ee9-466f3c43888e)
+  )
+
   (hierarchical_label "3V3_OUT" (shape input) (at 244.475 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 399c1a7a-8ce2-4f63-839d-182203db70d8)

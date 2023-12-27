@@ -34,7 +34,7 @@
       (symbol "JS5208_1_1"
         (pin input line (at 0 -10.16 90) (length 2.54)
           (name "COM" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at -8.89 0 0) (length 2.54)
           (name "B" (effects (font (size 1.27 1.27))))
@@ -970,11 +970,11 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3.3V" (at 0 3.556 0)
+      (property "Value" "+3V3" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -986,10 +986,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3.3V_0_1"
+      (symbol "+3V3_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -1015,9 +1015,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3.3V_1_1"
+      (symbol "+3V3_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (name "+3V3" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1986,13 +1986,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 46.355 41.275 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 46.355 41.275 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19bf2a82-2002-49a3-a4c1-84369541f994)
     (property "Reference" "#PWR02" (at 46.355 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 46.355 36.83 0)
+    (property "Value" "+3V3" (at 46.355 37.719 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 46.355 41.275 0)
@@ -2001,7 +2001,7 @@
     (property "Datasheet" "" (at 46.355 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4698d284-3625-4c05-988b-c40473565674))
+    (pin "1" (uuid fd243234-f842-4cd6-8473-f5a38257659c))
     (instances
       (project "bilge-vacuum"
         (path "/08405ba3-6912-4dc1-869a-b11176a5bc8a"
@@ -2322,13 +2322,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 45.72 109.22 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 45.72 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 731a7b88-861e-4fad-97b9-f5d63015c89a)
     (property "Reference" "#PWR07" (at 45.72 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 45.72 104.775 0)
+    (property "Value" "+3V3" (at 45.72 105.664 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 45.72 109.22 0)
@@ -2337,7 +2337,7 @@
     (property "Datasheet" "" (at 45.72 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a294b26-ff5f-4ce2-a479-94d6bd91174e))
+    (pin "1" (uuid fbb84cb0-7448-4f6f-b81f-b2b74612520d))
     (instances
       (project "bilge-vacuum"
         (path "/08405ba3-6912-4dc1-869a-b11176a5bc8a"
@@ -2350,13 +2350,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 55.245 67.31 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 55.245 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8eb0551a-feed-416a-82c4-d3d3a76053fb)
     (property "Reference" "#PWR04" (at 55.245 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 55.245 62.865 0)
+    (property "Value" "+3V3" (at 55.245 63.754 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 55.245 67.31 0)
@@ -2365,7 +2365,7 @@
     (property "Datasheet" "" (at 55.245 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc0cd03b-5d2f-4fc7-8fe2-e63900a9cafd))
+    (pin "1" (uuid 436c7edd-6c00-4ed7-98d0-c991c3c51f45))
     (instances
       (project "bilge-vacuum"
         (path "/08405ba3-6912-4dc1-869a-b11176a5bc8a"
@@ -2669,13 +2669,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 70.485 130.81 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 70.485 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c45d7825-1d07-4929-92f3-03ddd3b709ff)
     (property "Reference" "#PWR09" (at 70.485 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 70.485 126.365 0)
+    (property "Value" "+3V3" (at 70.485 127.254 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 70.485 130.81 0)
@@ -2684,7 +2684,7 @@
     (property "Datasheet" "" (at 70.485 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb87f3b4-bb03-45e2-9454-f45ab61e5a69))
+    (pin "1" (uuid 79a372bc-e924-4c58-bcae-bcd9069b685b))
     (instances
       (project "bilge-vacuum"
         (path "/08405ba3-6912-4dc1-869a-b11176a5bc8a"
@@ -2706,7 +2706,7 @@
     (property "Value" "NP" (at 170.815 111.125 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 167.132 109.855 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 167.132 109.855 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 168.91 109.855 0)
@@ -2798,7 +2798,7 @@
     (property "Datasheet" "" (at 247.015 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 851df327-b7c6-4986-acb2-837f84beef40))
+    (pin "1" (uuid b04e5adf-3878-40d0-b8a6-8482e1788832))
     (pin "2" (uuid 098ba8c6-04d2-4f36-b7cc-5ec3c89b63ac))
     (pin "3" (uuid a01c4f47-2afc-4cea-8b73-2cc5345b8302))
     (pin "4" (uuid bbfe258a-a8a4-4248-889c-9b5e2ace19af))
@@ -2929,13 +2929,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 193.675 116.205 0) (unit 1)
+  (symbol (lib_id "power:+3V3") (at 193.675 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f65f22e8-69c7-4a26-9737-2c1b48b85982)
     (property "Reference" "#PWR02" (at 193.675 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 193.675 111.76 0)
+    (property "Value" "+3V3" (at 193.675 112.649 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 193.675 116.205 0)
@@ -2944,7 +2944,7 @@
     (property "Datasheet" "" (at 193.675 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d692f5c-c800-4ccd-96d1-86adca26deff))
+    (pin "1" (uuid c2cacc1f-b239-4672-9f7f-c1297b9cd16e))
     (instances
       (project "bilge-vacuum"
         (path "/08405ba3-6912-4dc1-869a-b11176a5bc8a"

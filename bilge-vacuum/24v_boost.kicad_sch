@@ -1170,6 +1170,10 @@
     (uuid 4516ca17-678d-41b5-94e0-973cb083e48a)
   )
 
+  (label "BOOST_TG" (at 139.065 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3819d943-9252-43ac-b51a-7aa9394057cf)
+  )
   (label "24V_INTVCC" (at 106.68 60.96 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify right bottom))
     (uuid 4c57ccf0-ba33-4fdd-8f40-6f5e846c6ba5)
@@ -1177,6 +1181,10 @@
   (label "24V_INTVCC" (at 153.67 69.85 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid a9f15f1e-c77a-4715-9f41-57ad151b49a2)
+  )
+  (label "BOOST_BG" (at 138.43 72.39 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid aca6fbb6-b567-43fa-8fc4-5615c0be9298)
   )
 
   (hierarchical_label "PGOOD" (shape input) (at 103.505 90.17 0) (fields_autoplaced)
