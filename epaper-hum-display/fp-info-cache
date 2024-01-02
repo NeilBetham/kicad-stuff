@@ -1,4 +1,4 @@
-22180368958228726
+22190594810002932
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51688,6 +51688,13 @@ JS5208
 6
 6
 Custom
+KEYSTONE-1043
+
+
+0
+2
+2
+Custom
 Keystone-3568
 
 
@@ -51933,6 +51940,13 @@ SOIC-4W
 4
 4
 Custom
+SOT-23-3
+
+
+0
+3
+3
+Custom
 SOT-23-8
 
 
@@ -51960,6 +51974,13 @@ SOT23-5
 0
 5
 5
+Custom
+SRP0315
+
+
+0
+2
+2
 Custom
 SRP0620
 
@@ -52078,7 +52099,7 @@ VFQFN-29
 
 0
 33
-26
+29
 Custom
 VFQFN-32
 
@@ -52119,8 +52140,8 @@ WQFN-14
 
 
 0
-0
-0
+17
+15
 Custom
 WQFN-16
 
@@ -52367,6 +52388,13 @@ JS5208
 6
 6
 Custom Parts
+KEYSTONE-1043
+
+
+0
+2
+2
+Custom Parts
 Keystone-3568
 
 
@@ -52612,6 +52640,13 @@ SOIC-4W
 4
 4
 Custom Parts
+SOT-23-3
+
+
+0
+3
+3
+Custom Parts
 SOT-23-8
 
 
@@ -52639,6 +52674,13 @@ SOT23-5
 0
 5
 5
+Custom Parts
+SRP0315
+
+
+0
+2
+2
 Custom Parts
 SRP0620
 
@@ -52757,7 +52799,7 @@ VFQFN-29
 
 0
 33
-26
+29
 Custom Parts
 VFQFN-32
 
@@ -52798,8 +52840,8 @@ WQFN-14
 
 
 0
-0
-0
+17
+15
 Custom Parts
 WQFN-16
 
