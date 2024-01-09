@@ -413,7 +413,7 @@
     (property "Reference" "C52" (at 30.2641 57.2142 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF 25V" (at 30.2641 59.6384 0)
+    (property "Value" "10uF 50V" (at 30.2641 59.6384 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 27.94 58.42 0)

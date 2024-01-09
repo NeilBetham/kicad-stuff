@@ -875,7 +875,7 @@
     (property "Reference" "R36" (at 234.315 58.6191 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5k 1%" (at 234.315 61.0433 90)
+    (property "Value" "1.2k 1%" (at 234.315 61.0433 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 234.315 63.5 0)
