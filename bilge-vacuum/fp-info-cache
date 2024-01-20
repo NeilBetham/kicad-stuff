@@ -1,4 +1,4 @@
-22008551122096175
+22029107953725799
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51632,6 +51632,13 @@ DFN-12L
 17
 11
 Custom Parts
+DO-214AB
+
+
+0
+0
+0
+Custom Parts
 D_SOD-123
 SOD-123
 SOD-123
@@ -51651,7 +51658,7 @@ F31L-1A7H1-11024
 
 0
 26
-26
+25
 Custom Parts
 HQFN-16-4x4-1.98x0.8
 
@@ -51688,6 +51695,13 @@ JS5208
 6
 6
 Custom Parts
+KEYSTONE-1043
+
+
+0
+2
+2
+Custom Parts
 Keystone-3568
 
 
@@ -51701,6 +51715,13 @@ LFXTAL071758CUTT
 0
 4
 4
+Custom Parts
+LQFP-48
+
+
+0
+48
+48
 Custom Parts
 NA6252-AL
 
@@ -51720,8 +51741,8 @@ PKLCS1212E40A1-R1
 
 
 0
-0
-0
+2
+2
 Custom Parts
 POE70P
 
@@ -51828,6 +51849,13 @@ PowerPAD-SOIC-8
 18
 9
 Custom Parts
+PowerPAK 1212-8SCD Dual
+
+
+0
+12
+8
+Custom Parts
 QFN-16
 
 
@@ -51891,6 +51919,13 @@ SMD-4
 4
 4
 Custom Parts
+SMD_2016
+
+
+0
+2
+2
+Custom Parts
 SOD-123W
 
 
@@ -51919,6 +51954,20 @@ SOIC-4W
 4
 4
 Custom Parts
+SOT-23-3
+
+
+0
+3
+3
+Custom Parts
+SOT-23-8
+
+
+0
+8
+8
+Custom Parts
 SOT-23-Thin-5
 
 
@@ -51939,6 +51988,13 @@ SOT23-5
 0
 5
 5
+Custom Parts
+SRP0315
+
+
+0
+2
+2
 Custom Parts
 SRP0620
 
@@ -52052,6 +52108,20 @@ UFQFPN-48
 58
 49
 Custom Parts
+VFQFN-29
+
+
+0
+33
+29
+Custom Parts
+VFQFN-32
+
+
+0
+42
+33
+Custom Parts
 VQFN-24
 
 
@@ -52080,6 +52150,13 @@ WDFN-8
 13
 9
 Custom Parts
+WQFN-14
+
+
+0
+17
+15
+Custom Parts
 WQFN-16
 
 
@@ -52093,6 +52170,13 @@ WSON-6-TI
 0
 9
 7
+Custom Parts
+WSON-8
+
+
+0
+9
+8
 Custom Parts
 Wurth_632723300011
 
