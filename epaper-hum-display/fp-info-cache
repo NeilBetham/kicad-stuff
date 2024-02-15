@@ -1,4 +1,4 @@
-22190594810002932
+22204295302077660
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51562,6 +51562,13 @@ Custom
 9
 6
 Custom
+01550900M
+
+
+0
+2
+2
+Custom
 CFP15
 
 
@@ -51632,6 +51639,13 @@ DFN-12L
 17
 11
 Custom
+DO-214AB
+
+
+0
+2
+2
+Custom
 D_SOD-123
 SOD-123
 SOD-123
@@ -51651,7 +51665,7 @@ F31L-1A7H1-11024
 
 0
 26
-26
+25
 Custom
 HQFN-16-4x4-1.98x0.8
 
@@ -51912,6 +51926,13 @@ SMD-4
 4
 4
 Custom
+SMD_2016
+
+
+0
+2
+2
+Custom
 SOD-123W
 
 
@@ -52135,6 +52156,13 @@ WDFN-8
 0
 13
 9
+Custom
+WFQFN-24
+
+
+0
+29
+25
 Custom
 WQFN-14
 
@@ -52262,6 +52290,13 @@ Custom Parts
 9
 6
 Custom Parts
+01550900M
+
+
+0
+2
+2
+Custom Parts
 CFP15
 
 
@@ -52332,6 +52367,13 @@ DFN-12L
 17
 11
 Custom Parts
+DO-214AB
+
+
+0
+2
+2
+Custom Parts
 D_SOD-123
 SOD-123
 SOD-123
@@ -52351,7 +52393,7 @@ F31L-1A7H1-11024
 
 0
 26
-26
+25
 Custom Parts
 HQFN-16-4x4-1.98x0.8
 
@@ -52612,6 +52654,13 @@ SMD-4
 4
 4
 Custom Parts
+SMD_2016
+
+
+0
+2
+2
+Custom Parts
 SOD-123W
 
 
@@ -52835,6 +52884,13 @@ WDFN-8
 0
 13
 9
+Custom Parts
+WFQFN-24
+
+
+0
+29
+25
 Custom Parts
 WQFN-14
 
